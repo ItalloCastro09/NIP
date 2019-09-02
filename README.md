@@ -1,15 +1,15 @@
-#Instituto Federal De Pernambuco-Igarassu
+# Instituto Federal De Pernambuco-Igarassu
 # P&P I
 
- ##Nome do grupo:**NIP (Node In Pijamas);**
- ##Integrantes: 
+ ## Nome do grupo:**NIP (Node In Pijamas);**
+ ## Integrantes: 
  Itallo Castro/italloCastro09;
  Joan Lucas/JoanLucasL;
  Jammilly Pereira/Jammilly;
  Lucas Felinto/LucasFelinto;
  Luana florencio/Luanaflorencio;
  Maele Rodrigues/MaeleRodrigues;
- ##E-mails:
+ ## E-mails:
  castrocast2@gmail.com
  joanlucaslopes@gmail.com
  pjaanf@gmail.com
