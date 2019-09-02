@@ -8,11 +8,11 @@
  ### Jammilly Pereira/Jammilly;
  ### Lucas Felinto/LucasFelinto;
  ### Luana florencio/Luanaflorencio;
- ### Maele Rodrigues/MaeleRodrigues;
+ ### Maele Rodrigues/MaeleRodrigues.
  ## E-mails:
- ### castrocast2@gmail.com
- ### joanlucaslopes@gmail.com
- ### pjaanf@gmail.com
- ### elucasfelinto@gmail.com
- ### lua.m.016@gmail.com
- ### maele.arruda@gmail.com
+ ### castrocast2@gmail.com;
+ ### joanlucaslopes@gmail.com;
+ ### pjaanf@gmail.com;
+ ### elucasfelinto@gmail.com;
+ ### lua.m.016@gmail.com;
+ ### maele.arruda@gmail.com.
