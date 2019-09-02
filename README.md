@@ -1,18 +1,18 @@
 #Instituto Federal De Pernambuco-Igarassu
 # P&P I
 
-list ##Nome do grupo:**NIP (Node In Pijamas);**
-list ##Integrantes: 
-list Itallo Castro/italloCastro09;
-list Joan Lucas/JoanLucasL;
-list Jammilly Pereira/Jammilly;
-list Lucas Felinto/LucasFelinto;
-list Luana florencio/Luanaflorencio;
-list Maele Rodrigues/MaeleRodrigues;
-list ##E-mails:
-list castrocast2@gmail.com
-list joanlucaslopes@gmail.com
-list pjaanf@gmail.com
-list elucasfelinto@gmail.com
-list lua.m.016@gmail.com
-list maele.arruda@gmail.com
+ ##Nome do grupo:**NIP (Node In Pijamas);**
+ ##Integrantes: 
+ Itallo Castro/italloCastro09;
+ Joan Lucas/JoanLucasL;
+ Jammilly Pereira/Jammilly;
+ Lucas Felinto/LucasFelinto;
+ Luana florencio/Luanaflorencio;
+ Maele Rodrigues/MaeleRodrigues;
+ ##E-mails:
+ castrocast2@gmail.com
+ joanlucaslopes@gmail.com
+ pjaanf@gmail.com
+ elucasfelinto@gmail.com
+ lua.m.016@gmail.com
+ maele.arruda@gmail.com
