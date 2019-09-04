@@ -1,5 +1,5 @@
 # Instituto Federal De Pernambuco-Igarassu
-# P&P I
+# NIP(Node in Pijamas)
 
  ## Nome do grupo:**NIP (Node In Pijamas);**
  ## Integrantes:
