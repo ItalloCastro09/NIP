@@ -7,7 +7,7 @@
 </head>
 <body>
 	<div class = "centrarmenu"> 
-		<a href="Sobre.html">Sobre</a>
+		<a href="Sobre.php">Sobre</a>
 	</div>
 </body>
 </html>
