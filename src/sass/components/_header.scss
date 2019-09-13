@@ -1,0 +1,31 @@
+.header {
+  background: #000;
+  padding: 2rem 8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+
+  &-menu {
+    font-size: $font-size-little;
+    color: $color-white;
+    letter-spacing: 0.5rem;
+
+    &__list {
+      a {
+        color: $color-white;
+        padding: 0 30px;
+        display: inline-block;
+      }
+
+      &__item {
+      }
+    }
+  }
+
+  .line {
+    width: 128px;
+    height: 3px;
+    background: $color-white;
+  }
+}

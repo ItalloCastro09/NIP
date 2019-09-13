@@ -1,0 +1,15 @@
+{
+  "name": "NIP",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ItalloCastro09/NIP.git",
+  "author": "LucasFelinto <elucasfelinto@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "sass:compile": "yarn sass src/sass/main.scss src/css/style.css --watch"
+  },
+  "dependencies": {
+    "live-serve": "^0.0.0",
+    "sass": "^1.22.12"
+  }
+}
