@@ -8,6 +8,7 @@
 			<p class="paragraph">
 				Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima quibusdam consequuntur, consectetur quidem delectus necessitatibus, adipisci voluptatibus nulla totam ipsam ex error maiores! Possimus et obcaecati eveniet? Saepe, reprehenderit porro.
 			</p>
+			<a  class="btn u-margin-top" href="">Continue Lendo</a>
 		</section>
 		<ul>
 			<li>sdad</li>

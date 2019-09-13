@@ -1,0 +1,14 @@
+.btn {
+  &:link,
+  &:visited {
+    text-transform: uppercase;
+    color: $color-gray-light;
+    font-size: $font-size-little;
+    border: 1px solid $color-gray-light;
+    padding: 0.1rem 5rem;
+    &:hover {
+      color: $color-pink-light;
+      border: 1px solid $color-pink-light;
+    }
+  }
+}
