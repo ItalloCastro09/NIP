@@ -8,7 +8,8 @@
  ### Jammilly Pereira/Jammilly;
  ### Lucas Felinto/LucasFelinto;
  ### Luana florencio/Luanaflorencio;
- ### Maele Rodrigues/MaeleRodrigues.
+ ### Maele Rodrigues/MaeleRodrigues;
+ ### Welyson Santana/....###
  ## E-mails:
  ### castrocast2@gmail.com;
  ### joanlucaslopes@gmail.com;
