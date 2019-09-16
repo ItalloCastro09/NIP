@@ -4,9 +4,9 @@
   </div>
   <nav class="header-menu">
     <ul class="header-menu__list">
-      <li class="header-menu__item"><a data-color="white" href="">home</a></li> 
-      <li class="header-menu__item"><a data-color="white" href="">sobre</a></li>
-      <li class="header-menu__item"><a data-color="white" href="">login</a></li>
+      <li class="header-menu__item"><a data-color="white" href="">Home</a></li> 
+      <li class="header-menu__item"><a data-color="white" href="">Sobre</a></li>
+      <li class="header-menu__item"><a data-color="white" href="">Login</a></li>
       <li class="header-menu__item"><a data-color="white" href="">Cadastrar</a></li>
       <div class="line"></div>
     </ul>

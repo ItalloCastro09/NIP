@@ -34,7 +34,7 @@ body {
 }
 
 .heading-logo {
-  letter-spacing: 1rem;
+  letter-spacing: 0.4rem;
   font-size: 3.3rem;
   font-style: normal;
   font-weight: normal;
@@ -62,6 +62,7 @@ body {
 .header {
   background: #fff;
   color: #000;
+  z-index: 99;
   padding: 2rem 8rem;
   display: flex;
   justify-content: space-between;
@@ -116,6 +117,55 @@ body {
   border: 1px solid #d13f73;
 }
 
+.book {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  text-decoration: none;
+  border-radius: 1px;
+  overflow: hidden;
+  -webkit-text-decoration: none;
+  /*
+  &__img {
+    background-image: url("https://gedd.ski/img/flexbox-inspector.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    padding-bottom: 70.0280112%;
+    transition-timing-function: ease-out;
+    transition-duration: 4s;
+    transition-property: transform;
+    transform-origin: center center;
+
+    -ms-transform-origin: center center;
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transform-origin: center center;
+    -webkit-transition-property: transform;
+    -webkit-transition-property: -webkit-transform;
+    -webkit-transition-duration: 4s;
+  }
+  */
+}
+.book__img {
+  width: 100%;
+}
+.book__paragraph {
+  background: #1f1d25;
+  color: #fff;
+  padding: 1rem;
+  padding-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  z-index: 2;
+}
+
+.footer {
+  background: #000;
+  font-size: 3.3rem;
+  text-align: center;
+  color: #fff;
+  padding: 2rem;
+  text-transform: uppercase;
+}
+
 .info {
   padding: 15rem 0;
   display: flex;
@@ -127,6 +177,46 @@ body {
   width: 633px;
   text-align: center;
   margin-top: 4rem;
+}
+
+.hero {
+  padding: 60rem 0;
+  background-image: url("../img/bg-hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  font-size: 3.3rem;
+  color: #fff;
+  text-align: center;
+  font-family: "Raleway";
+  position: relative;
+}
+.hero::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+.hero p {
+  position: relative;
+  z-index: 2;
+}
+
+.book-box {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  grid-column-gap: 1.3rem;
+  grid-row-gap: 2.4rem;
+  justify-content: center;
+  padding: 6.2rem 4.6rem;
+  -webkit-justify-content: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
 }
 
 /*# sourceMappingURL=style.css.map */

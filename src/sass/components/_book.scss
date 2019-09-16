@@ -1,0 +1,41 @@
+.book {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  text-decoration: none;
+  border-radius: 1px;
+  overflow: hidden;
+  -webkit-text-decoration: none;
+  /*
+  &__img {
+    background-image: url("https://gedd.ski/img/flexbox-inspector.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    padding-bottom: 70.0280112%;
+    transition-timing-function: ease-out;
+    transition-duration: 4s;
+    transition-property: transform;
+    transform-origin: center center;
+
+    -ms-transform-origin: center center;
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transform-origin: center center;
+    -webkit-transition-property: transform;
+    -webkit-transition-property: -webkit-transform;
+    -webkit-transition-duration: 4s;
+  }
+  */
+
+  &__img {
+    width: 100%;
+  }
+
+  &__paragraph {
+    background: #1f1d25;
+    color: #fff;
+    padding: 1rem;
+    padding-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    z-index: 2;
+  }
+}

@@ -1,6 +1,7 @@
 .header {
   background: $color-white;
   color: $color-black;
+  z-index: 99;
 
   padding: 2rem 8rem;
   display: flex;
