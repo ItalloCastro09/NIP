@@ -1,11 +1,9 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<title>Cadastro Usuário</title>
-</head>
+<?php include "components/header.php"?>
 <body>
-	<form action="process/armazenado.php" method="POST">
+	<?php include "components/menu-top.php" ?>
+	<form action="process/armazenado.php" method="POST" class="formuser">
 		<fieldset>
 			<legend>Cadastro</legend>
 			Nome:<br>
