@@ -32,7 +32,7 @@
 			<a href="exemplo3.php" class="book">
 				<img class="book__img" src="https://www.elefantevoador.com/wp-content/uploads/2017/11/05-3-650x450.jpg" alt="">
 				<div class="book__paragraph">
-					<h1>O Extraordinario</p>
+					<h1>Extraordinário</p>
 				</div>
 			</a>
 
