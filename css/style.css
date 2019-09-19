@@ -83,29 +83,32 @@ body {
 }
 .header-menu__item {
   display: inline-block;
-  width: 12rem;
+  width: 30rem;
   text-align: center;
   transition: all 0.4s ease-in-out;
+
+
 }
 .header-menu__item:nth-child(2):hover ~ .line {
-  transform: translate(12rem);
+  transform: translate(30rem);
   transition: all 0.4s ease-in-out;
 }
 .header-menu__item:nth-child(3):hover ~ .line {
-  transform: translate(25rem);
+  transform: translate(60rem);
   transition: all 0.4s ease-in-out;
 }
-.header-menu__item:nth-child(4):hover ~ .line {
+/*.header-menu__item:nth-child(4):hover ~ .line {
   transform: translate(37.5rem);
   transition: all 0.4s ease-in-out;
   width: 30%;
-}
+}*/
+
 .header-menu__item a {
   color: #2e2e32;
 }
 
 .line {
-  width: 12rem;
+  width: 30rem;
   height: 3px;
   background: #000;
   transition: all 0.4s ease-in-out;
@@ -225,8 +228,10 @@ body {
   -ms-flex-pack: center;
 }
 .formuser {
-  padding: 10%;
+  padding-top: 10%;
   font-size: 200%;
+  padding-right: 5%;
+  padding-left: 5%;
 }
 
 .exemplodelivros{

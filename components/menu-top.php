@@ -4,9 +4,9 @@
   </div>
   <nav class="header-menu">
     <ul class="header-menu__list">
-      <li class="header-menu__item"><a data-color="white" href="../index.php">Home</a></li> 
+      <li class="header-menu__item"><a data-color="white" href="../index.php">Início</a></li> 
       <li class="header-menu__item"><a data-color="white" href="../sobre.php">Sobre</a></li>
-      <li class="header-menu__item"><a data-color="white" href="../cadastro.php">Cadastrar e Entrar</a></li>
+      <li class="header-menu__item" ><a data-color="white" href="../cadastro.php">Cadastrar e Entrar</a></li>
       <div class="line"></div>
     </ul>
   </nav>
