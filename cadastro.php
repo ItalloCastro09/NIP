@@ -4,7 +4,7 @@
 <body>
 	<?php include "components/menu-top.php" ?>
 
-	<form action="" method="POST" class="formuser">
+	<form action="process/auth.php" method="POST" class="formuser">
 		<fieldset>
 			<legend>Entrar</legend>
 			E-mail:<br>
