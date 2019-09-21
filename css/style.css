@@ -83,32 +83,29 @@ body {
 }
 .header-menu__item {
   display: inline-block;
-  width: 30rem;
+  width: 12rem;
   text-align: center;
   transition: all 0.4s ease-in-out;
-
-
 }
 .header-menu__item:nth-child(2):hover ~ .line {
-  transform: translate(30rem);
+  transform: translate(12rem);
   transition: all 0.4s ease-in-out;
 }
 .header-menu__item:nth-child(3):hover ~ .line {
-  transform: translate(60rem);
+  transform: translate(25rem);
   transition: all 0.4s ease-in-out;
 }
-/*.header-menu__item:nth-child(4):hover ~ .line {
+.header-menu__item:nth-child(4):hover ~ .line {
   transform: translate(37.5rem);
   transition: all 0.4s ease-in-out;
   width: 30%;
-}*/
-
+}
 .header-menu__item a {
   color: #2e2e32;
 }
 
 .line {
-  width: 30rem;
+  width: 12rem;
   height: 3px;
   background: #000;
   transition: all 0.4s ease-in-out;
@@ -228,17 +225,16 @@ body {
   -ms-flex-pack: center;
 }
 .formuser {
-  padding-top: 10%;
+  padding: 10%;
   font-size: 200%;
-  padding-right: 5%;
-  padding-left: 5%;
 }
 
 .exemplodelivros{
 
   width: 55%;
   height: 55%;
-  margin-left: -100px;
+  margin-left: -350px;
+  margin-top: -70px; 
   border-radius: 1%;
 
 }
@@ -250,10 +246,12 @@ body {
   background: #1f1d25;
   color: #fff;
   padding: 1rem;
+  padding-top: 20rem;
   padding-bottom: 1rem;
-  padding-bottom: 15.4rem;
+  padding-bottom: 30rem;
   z-index: 2;
   font-size: 20px;
+  margin-left: -20rem;
 
 }
 
@@ -267,7 +265,8 @@ margin-left: -100px;
 .description{
 
   float: right;
-  margin-right: 70px;
+  margin-right: 150px;
+  margin-left: -400px; 
 
 }
 

@@ -29,49 +29,49 @@
 		   <div class="testimonial-contents">
 			<div class="testimonial active" id="i1">
 
-				<span class="description">Itallo Castro<br>GitHub: ItalloCastro09</span><br>
+				<span class="dcrp">Itallo Castro<br>GitHub: ItalloCastro09</span><br>
 				<span class="sp">castrocast2@gmail.com</span>
 
 		   </div>
 
 		   <div class="testimonial" id="i2">
 
-				<span class="description">Jammilly Pereira<br>GitHub: Jammilly</span><br>
+				<span class="dcrp">Jammilly Pereira<br>GitHub: Jammilly</span><br>
 				<span class="sp">pjaanf@gmail.com</span>
 
 		   </div>
 
 		   <div class="testimonial" id="i3">
 
-				<span class="description">Joan Lucas<br>GitHub: JoanLucasL</span><br>
+				<span class="dcrp">Joan Lucas<br>GitHub: JoanLucasL</span><br>
 				<span class="sp">joanlucaslopes@gmail.com</span>
 		   
 		   </div>
 
 		   <div class="testimonial" id="i4">
 
-				<span class="description">Luana Florencio<br>GitHub: Luanaflorencio</span><br>
+				<span class="dcrp">Luana Florencio<br>GitHub: Luanaflorencio</span><br>
 				<span class="sp">lua.m.016@gmail.com</span>
 
 		   </div>
 
 		   <div class="testimonial" id="i5">
 
-				<span class="description">Lucas Felinto<br>GitHub: LucasFelinto</span><br>
+				<span class="dcrp">Lucas Felinto<br>GitHub: LucasFelinto</span><br>
 				<span class="sp">elucasfelinto@gmail.com</span>
 
 		   </div>
 
 		   <div class="testimonial" id="i6">
 
-				<span class="description">Maele Rodrigues<br>GitHub: MaeleRodrigues</span><br>
+				<span class="dcrp">Maele Rodrigues<br>GitHub: MaeleRodrigues</span><br>
 				<span class="sp">maele.arruda@gmail.com</span>
 
 		   </div>
 
 		   <div class="testimonial" id="i7">
 
-				<span class="description">Welyson Santana<br>GitHub: ...</span><br>
+				<span class="dcrp">Welyson Santana<br>GitHub: ...</span><br>
 				<span class="sp">well...</span>
 
 		   </div>
