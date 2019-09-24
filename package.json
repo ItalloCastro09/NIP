@@ -6,7 +6,7 @@
   "author": "LucasFelinto <elucasfelinto@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "sass:compile": "yarn sass src/sass/main.scss src/css/style.css --watch"
+    "sass:compile": "yarn sass sass/main.scss css/style.css --watch"
   },
   "dependencies": {
     "live-serve": "^0.0.0",

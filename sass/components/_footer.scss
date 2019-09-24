@@ -1,8 +1,14 @@
 .footer {
   background: $color-black;
   font-size: $font-size-large;
-  text-align: center;
   color: $color-white;
-  padding: $spacing-small;
-  text-transform: uppercase;
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 8rem;
+  align-items: center;
+}
+
+svg {
+  fill: $color-white;
+  width: 50px;
 }

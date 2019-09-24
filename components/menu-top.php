@@ -1,6 +1,6 @@
 <header class="header">
   <div class="header__logo-box">
-    <h1 data-color="white" class="heading-logo">tradebook</h1>
+    <h1><a data-color="white" class="heading-logo" href="/index.php">tradebook</a></h1>
   </div>
   <nav class="header-menu">
     <ul class="header-menu__list">

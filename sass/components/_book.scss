@@ -5,6 +5,7 @@
   border-radius: 1px;
   overflow: hidden;
   -webkit-text-decoration: none;
+
   /*
   &__img {
     background-image: url("https://gedd.ski/img/flexbox-inspector.jpg");
@@ -28,6 +29,13 @@
 
   &__img {
     width: 100%;
+    transition: all 2s ease-in-out;
+
+    &:hover {
+      transform: scaleY(1.3) scaleX(1.3);
+      transition: all 2s ease-in-out;
+      //filter: blur(0.9px) brightness(0.5);
+    }
   }
 
   &__paragraph {
