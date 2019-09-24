@@ -128,6 +128,8 @@ body {
   border-radius: 1px;
   overflow: hidden;
   -webkit-text-decoration: none;
+  position: relative;
+  transition: all 2s;
   /*
   &__img {
     background-image: url("https://gedd.ski/img/flexbox-inspector.jpg");
@@ -153,17 +155,37 @@ body {
   width: 100%;
   transition: all 2s ease-in-out;
 }
-.book__img:hover {
+.book__img:hover ~ * {
+  display: block;
+}
+.book:hover div {
+  display: block;
+  animation: 1s fadeIn;
+}
+.book:hover img {
   transform: scaleY(1.3) scaleX(1.3);
-  transition: all 2s ease-in-out;
+  transition: all 2s;
+  filter: blur(2px) brightness(0.5);
+  display: block;
 }
 .book__paragraph {
-  background: #1f1d25;
   color: #fff;
   padding: 1rem;
-  padding-bottom: 1rem;
-  padding-bottom: 0.5rem;
-  z-index: 2;
+  font-size: 1.4rem !important;
+  display: none;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-60%) translateX(-50%);
+}
+@keyframes fadeIn {
+  to {
+    transform: translateY(-60%) translateX(-50%);
+  }
+  from {
+    transform: translateY(-40%) translateX(-50%);
+  }
 }
 
 .footer {
