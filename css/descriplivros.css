@@ -1,0 +1,38 @@
+.exemplodelivros{
+
+  width: 55%;
+  height: 55%;
+  margin-left: -100px;
+  margin-top: 100px;
+  border-radius: 1%;
+
+
+}
+
+.book__description{
+
+  font-size: 10px;
+  text-align: center;
+  background: #1f1d25;
+  color: #fff;
+  padding: 1rem;
+  padding-bottom: 1rem;
+  padding-bottom: 15.4rem;
+  z-index: 2;
+  font-size: 20px;
+
+}
+
+.book__description p{
+
+position: absolute;
+margin-left: -100px;
+
+}
+
+.description{
+
+  float: right;
+  margin-right: 70px;
+
+}
