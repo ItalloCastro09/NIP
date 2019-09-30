@@ -23,8 +23,9 @@
 					<h1>Cadastro</h1>
 					<input type="text" name="nome" placeholder="Nome">
 					<input type="number" name="telefone" placeholder="Telefone">
-					<input type="email" name="e-mail" placeholder="Email">
+					<input type="email" name="email" placeholder="Email">
 					<input type="password" name="senha" placeholder="Senha">
+					<input type="password" name="confirmarSenha" placeholder="Confirmar Senha">
 					<button>Cadastrar</button>
 				</form>
 			</div>
@@ -53,5 +54,6 @@
 		<?php include "components/footer.php" ?>
 		<script src="js/scrollMenuEfect.js"></script>
 		<script src="js/cel.js"></script>
+		<script src="js/validaInputCadastro.js"></script>t	
 </body>
 </html>
