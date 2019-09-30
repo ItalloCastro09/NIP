@@ -3,32 +3,52 @@
 <?php include "components/header.php"?>
 <body>
 	<?php include "components/menu-top.php" ?>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+	<link rel="stylesheet" type="text/css" href="css/cadastroelogin.css">
 
-	<form action="process/auth.php" method="POST" class="formuser">
-		<fieldset>
-			<legend>Entrar</legend>
-			E-mail:<br>
-			<input type="email" name="e-mail"><br>
-			Senha:<br>
-			<input type="password" name="senha"><br>
-			<input type="submit" value="Entrar">
-		</fieldset>	
-	</form>
 
-	<form action="process/armazenado.php" method="POST" class="formuser">
-		<fieldset>
-			<legend>Cadastro</legend>
-			Nome:<br>
-			<input type="text" name="nome"><br>
-			Telefone:<br>
-			<input type="number" name="telefone"><br>
-			E-mail:<br>
-			<input type="email" name="e-mail"><br>
-			Senha:<br>
-			<input type="password" name="senha"><br>
-			<input type="submit" value="Cadastrar">
-		</fieldset> 
-	</form>
+<div class="container" id="container">
+	<div class="form-container sign-in-container">
+		<form action="process/auth.php" method="POST" class="formuser">
+			<h1>Entrar</h1>
+			<input type="email" name="e-mail" placeholder="Email">
+			<input type="password" name="senha" placeholder="Senha">
+			<a href="#">Esqueceu a senha?</a>
+			<button>Entrar</button>	
+		</form>
+	</div>
+
+	<div class="form-container sign-up-container">
+		<form action="process/armazenado.php" method="POST" class="formuser">
+			<h1>Cadastro</h1>
+			<input type="text" name="nome" placeholder="Nome">
+			<input type="number" name="telefone" placeholder="Telefone">
+			<input type="email" name="e-mail" placeholder="Email">
+			<input type="password" name="senha" placeholder="Senha">
+			<button>Cadastrar</button>
+		</form>
+	</div>
+
+		<div class="overlay-container">
+			<div class="overlay">
+				<div class="overlay-panel overlay-left">
+					<h1>Já Tem Uma Conta?</h1>
+					<p>
+						Clique abaixo para Entrar.
+					</p>
+					<button class="ghost" id="signIn">Entrar</button>
+				</div>
+				<div class="overlay-panel overlay-right">
+					<h1>Não Tem Uma Conta?</h1>
+					<p>
+						Clique abaixo para Cadastrar.
+					</p>
+					<button class="ghost" id="signUp">Cadastro</button>
+				</div>
+			</div>
+		</div>
+</div>
 		<script src="js/scrollMenuEfect.js"></script>
+		<script src="js/cel.js"></script>
 </body>
 </html>
