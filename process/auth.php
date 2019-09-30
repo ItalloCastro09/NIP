@@ -7,7 +7,7 @@ foreach($usuarios as $usuario) {
     $usuarioData = explode(',', $usuario);
     // var_dump($usuarioData, $email, $pwd);
     if (trim($usuarioData[2]) == $email && trim($usuarioData[3]) == $pwd) {
-    	header('location: index.php');
+    	header('location: ../index.php');
     	exit();
     	
     }
