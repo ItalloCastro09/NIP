@@ -13,7 +13,9 @@
 	<section class="info">
 		<h1 class="heading-primary">O que é Trade Book?</h1>
 		<p class="paragraph">
-			Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima quibusdam consequuntur, consectetur quidem delectus necessitatibus, adipisci voluptatibus nulla totam ipsam ex error maiores! Possimus et obcaecati eveniet? Saepe, reprehenderit porro.
+			O tradebook é uma plataforma criada com intuito de proporcionar faciladade na troca e doação de livros para aqueles assim desejam. Dentro do tradebook você irá obter os dados dos livros do qual tem interesse, dados da pessoas para poder se comunicar e organizar onde e quando será o encontro, cadastrar livros que você quer trocar ou doar, entre outras funcionalidades. 
+Então ta esperando o quê? 
+Cadastra-se agora!
 		</p><link href="https://fonts.googleapis.com/css?family=Lora:700&display=swap" rel="stylesheet">
 		<!--<a  class="btn u-margin-top" href="">Continue Lendo</a>-->
 	</section>
