@@ -23,7 +23,9 @@
 
     <section id="sobre">
         <h2>SOBRE</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis exercitationem officiis.</p>
+        <p>O tradebook é uma plataforma criada com intuito de proporcionar faciladade na troca e doação de livros para aqueles assim desejam. Dentro do tradebook você irá obter os dados dos livros do qual tem interesse, dados da pessoas para poder se comunicar e organizar onde e quando será o encontro, cadastrar livros que você quer trocar ou doar, entre outras funcionalidades. 
+Então ta esperando o quê? 
+Cadastra-se agora!</p>
         <a href="#contato" class="botao">ENTRE EM CONTATO</a>
     </section>
 
