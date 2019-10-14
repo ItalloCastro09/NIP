@@ -11,6 +11,7 @@
 <div class="description">
 	<h1>Por Lugares Incríveis</h1><br><br>
 	<h2>Ano: 2015</h2><h2>Autor: Jennifer Niven</h2>
+	<h2>Idioma: Português</h2><h2>Descrição: Capa Comum, Semi-novo.</h2>
 </div>
 </div>
 </body>

@@ -11,6 +11,7 @@
 <div class="description">
 	<h1>Extraordinário</h1><br><br>
 	<h2>Ano: 2012</h2><h2>Autor:  R. J. Palacio</h2>
+	<h2>Idioma: Portugês</h2><h2>Descrição: Capa Dura com pequenos arranhões, semi-novo.</h2>
 </div>
 </div>
 </body>
