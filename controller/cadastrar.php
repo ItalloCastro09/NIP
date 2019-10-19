@@ -1,19 +1,20 @@
 <?php
   include "../model/Usuario.php";
-  
-  $servername = "localhost";
-  $dbname = "tradebook";
-  $username = "lucas";
-  $password = "felinto";
+
+  $nome = $_POST["nome"];
+  $email = $_POST["email"];
+  $senha = md5($_POST["senha"]);
+  $telefone = $_POST["telefone"];
   
   $messageSucess = ["sucess" => "Usuario criado com sucesso"];
   $messageErro = ["erro" => "E-mail já cadastrado"];
 
-  $usuario = new Usuario($servername, $dbname, $username, $password);
+  $usuario = new Usuario();
   
   if($usuario->verificaUsuarioExiste($_POST["email"])) {
-    $usuario->cadastrar($_POST["nome"], $_POST["email"], $_POST["telefone"], $_POST["senha"]);
-    echo json_encode($messageSucess);
+    $usuario->cadastrarUsuario($nome, $email, $senha, $telefone);
+   // echo json_encode($messageSucess);
+    print_r($_POST);
     http_response_code(201);
   } else {
     echo json_encode($messageErro);

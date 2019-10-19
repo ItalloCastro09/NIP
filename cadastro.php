@@ -9,7 +9,7 @@
 	<div class="display">
 		<div class="container" id="container">
 			<div class="form-container sign-in-container">
-				<form action="process/auth.php" method="POST" class="formuser">
+				<form action="/controller/login.php" method="POST" class="formuser">
 					<h1>Entrar</h1>
 					<input type="email" name="email" placeholder="Email">
 					<input type="password" name="senha" placeholder="Senha">
@@ -19,7 +19,7 @@
 			</div>
 
 			<div class="form-container sign-up-container">
-				<form action="process/armazenado.php" method="POST" class="formuser">
+				<form action="/controller/cadastrar.php" method="POST" class="formuser">
 					<h1>Cadastro</h1>
 					<input type="text" name="nome" placeholder="Nome">
 					<input type="number" name="telefone" placeholder="Telefone">

@@ -3,8 +3,7 @@
 	<?php include "components/header.php" ?>
 	<body>
 		<?php include "components/menu-top.php" ?>
-	
-	
+		
 		<section class="book-box">
 			<a href="exemplo1.php" class="book">
 				<img class="book__img" src="http://4.bp.blogspot.com/-uO59jBa8yGg/WBqFrzbAYyI/AAAAAAAADN0/3hp-nItF3Ds9NNwCg7M9uq77bMkpYp0kwCK4B/s1600/2-1280x853.jpg" alt="">

@@ -85,28 +85,8 @@ body {
   text-align: center;
   transition: all 0.4s ease-in-out;
 }
-.header-menu__item:nth-child(2):hover ~ .line {
-  transform: translate(12rem);
-  transition: all 0.4s ease-in-out;
-}
-.header-menu__item:nth-child(3):hover ~ .line {
-  transform: translate(25rem);
-  transition: all 0.4s ease-in-out;
-}
-.header-menu__item:nth-child(4):hover ~ .line {
-  transform: translate(37.5rem);
-  transition: all 0.4s ease-in-out;
-  width: 30%;
-}
 .header-menu__item a {
   color: #2e2e32;
-}
-
-.line {
-  width: 12rem;
-  height: 3px;
-  background: #000;
-  transition: all 0.4s ease-in-out;
 }
 
 .btn:link, .btn:visited {

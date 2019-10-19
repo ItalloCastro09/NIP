@@ -1,32 +1,46 @@
 <?php
-  class Usuario {
-    private $pdo;
+  require_once "../config/Conexao.php";
   
-    public function __construct($serverName, $dbName, $username, $password) {
-      try {
-        $this->pdo = new PDO("mysql:host=$serverName;dbname=$dbName", $username, $password);
-      } catch (PDOException $e) {
-        echo "Erro banco de dados {$e->getMessage}";
-      }
-    }
+  class Usuario {
 
-    public function cadastrar($nome, $email, $senha, $telefone) {
-      $consulta = $this->pdo->prepare("INSERT INTO TB_USUARIO (US_NOME, US_EMAIL, US_SENHA, US_TELEFONE)
+    public function cadastrarUsuario($nome, $email, $senha, $telefone) {
+      $con = Connection::getConn();
+      $query = $con->prepare("INSERT INTO USUARIO (NOME, EMAIL, SENHA, TELEFONE)
         VALUES (:NOME, :EMAIL, :SENHA, :TELEFONE)");
-      $consulta->bindValue(":NOME", $nome);
-      $consulta->bindValue(":EMAIL", $email);
-      $consulta->bindValue(":SENHA", $senha);
-      $consulta->bindValue(":TELEFONE", $telefone);
-      $consulta->execute();
+      $query->bindValue(":NOME", $nome);
+      $query->bindValue(":EMAIL", $email);
+      $query->bindValue(":SENHA", $senha);
+      $query->bindValue(":TELEFONE", $telefone);
+      $query->execute();
     }
 
     public function verificaUsuarioExiste($email) {
-      $consulta = $this->pdo->prepare("SELECT US_ID FROM TB_USUARIO WHERE US_EMAIL = :EMAIL");
-      $consulta->bindValue(":EMAIL", $email);
-      $consulta->execute();
+      $con = Connection::getConn();
+      $query = $con->prepare("SELECT ID FROM USUARIO WHERE EMAIL = :EMAIL");
+      $query->bindValue(":EMAIL", $email);
+      $query->execute();
 
-      if($consulta->rowCount() > 0) return false;
+      if($query->rowCount() > 0) return false;
       return true; 
     }
-    
+
+    public function login($email, $senha) {
+      $con = Connection::getConn();
+      $query = $con->prepare("SELECT * FROM USUARIO WHERE EMAIL = :EMAIL AND SENHA = :SENHA");
+      $query->bindValue(":EMAIL", $email);
+      $query->bindValue(":SENHA", $senha);
+      $query->execute();
+
+      if ($query->rowCount() > 0) {
+        $data = $query->fetch();
+        session_start();
+        $_SESSION["id_usuario"] = $data;
+        print_r($_SESSION["id_usuario"]);
+        return true;
+      }
+      
+      return false;
+    }
+
+
   }

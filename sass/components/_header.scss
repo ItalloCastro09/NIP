@@ -21,33 +21,26 @@
       text-align: center;
       transition: all 0.4s ease-in-out;
 
-      &:nth-child(2):hover ~ .line {
-        transform: translate(12rem);
-        transition: all 0.4s ease-in-out;
-      }
+      // &:nth-child(2):hover ~ .line {
+      //   transform: translate(12rem);
+      //   transition: all 0.4s ease-in-out;
+      // }
 
-      &:nth-child(3):hover ~ .line {
-        transform: translate(25rem);
-        transition: all 0.4s ease-in-out;
-      }
+      // &:nth-child(3):hover ~ .line {
+      //   transform: translate(25rem);
+      //   transition: all 0.4s ease-in-out;
+      // }
 
-      &:nth-child(4):hover ~ .line {
-        transform: translate(37.5rem);
-        transition: all 0.4s ease-in-out;
+      // &:nth-child(4):hover ~ .line {
+      //   transform: translate(37.5rem);
+      //   transition: all 0.4s ease-in-out;
 
-        width: 30%;
-      }
+      //   width: 30%;
+      // }
 
       a {
         color: $color-gray-dark;
       }
     }
   }
-}
-
-.line {
-  width: 12rem;
-  height: 3px;
-  background: $color-black;
-  transition: all 0.4s ease-in-out;
 }
