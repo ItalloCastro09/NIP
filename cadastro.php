@@ -54,6 +54,6 @@
 		<?php include "components/footer.php" ?>
 		<script src="js/scrollMenuEfect.js"></script>
 		<script src="js/cel.js"></script>
-		<script src="js/validaInputCadastro.js"></script>t	
+		<script src="js/validaInputCadastro.js"></script>	
 </body>
 </html>
