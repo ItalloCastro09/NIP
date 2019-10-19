@@ -1,7 +1,8 @@
 <?php 
+include 'process/init.php';
 $nome = $_POST['nome'];
 $fone = $_POST['telefone'];
-$email = $_POST['e-mail'];
+$email = $_POST['email'];
 $pwd = $_POST['senha'];
 ?>
 

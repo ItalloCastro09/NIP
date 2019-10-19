@@ -11,7 +11,7 @@
 			<div class="form-container sign-in-container">
 				<form action="process/auth.php" method="POST" class="formuser">
 					<h1>Entrar</h1>
-					<input type="email" name="e-mail" placeholder="Email">
+					<input type="email" name="email" placeholder="Email">
 					<input type="password" name="senha" placeholder="Senha">
 					<a href="#">Esqueceu a senha?</a>
 					<button>Entrar</button>	
