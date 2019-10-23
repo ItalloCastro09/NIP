@@ -23,11 +23,24 @@
 				<form action="/controller/cadastrar.php" method="POST" class="formuser" data-form="cadastrar">
 					<h1>Cadastro</h1>
 					<h1 class="message"></h1>
+<<<<<<< HEAD
+=======
+					<label for="nome">Nome</label>
+>>>>>>> master
 					<input type="text" name="nome" placeholder="Nome">
+					<label for="nome">Telefone</label>
 					<input type="number" name="telefone" placeholder="Telefone">
+					<label for="nome">E-mail</label>					
 					<input type="email" name="email" placeholder="Email">
+<<<<<<< HEAD
 					<input type="password" name="senha" placeholder="">
 					<input type="password" name="confirmarSenha" placeholder="">
+=======
+					<label for="nome">Senha</label>					
+					<input type="password" name="senha" placeholder="Senha">
+					<label for="nome">Confirmar senha</label>					
+					<input type="password" name="confirmarSenha" placeholder="Confirmar Senha">
+>>>>>>> master
 					<button>Cadastrar</button>
 				</form>
 			</div>
