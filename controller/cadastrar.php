@@ -13,9 +13,12 @@
   
   if($usuario->verificaUsuarioExiste($_POST["email"])) {
     $usuario->cadastrarUsuario($nome, $email, $senha, $telefone);
-   // echo json_encode($messageSucess);
+    echo json_encode($messageSucess);
     print_r($_POST);
     http_response_code(201);
+    header("Location: /index.php");
   } else {
     echo json_encode($messageErro);
+    header("Location: /index.php");
+
   }
