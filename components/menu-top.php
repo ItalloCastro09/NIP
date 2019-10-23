@@ -22,12 +22,12 @@
         </li>
         <div class="dropdown-menu">
           <li style="font-size: 1.5rem; cursor: "class="header-menu__item" >Perfil<a data-color="white" href="../cadastro.php"></a></li>
-          <li style="font-size: 1.5rem;"class="header-menu__item" >Sair<a data-color="white" href="../cadastro.php"></a></li>
+          <li style="font-size: 1.5rem;"class="header-menu__item" ><a data-color="white" href="sair.php">Sair</a></li>
         </div>
         
         <div class="btn-group">
           <li class="dropdown-toggle header-menu__item" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Livro
+          LivTelefonero
         </li>
         <div class="dropdown-menu">
           <li style="font-size: 1.5rem; cursor: "class="header-menu__item" >Perfil<a data-color="white" href="../cadastro.php"></a></li>

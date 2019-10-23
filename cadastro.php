@@ -6,6 +6,7 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
 	<link rel="stylesheet" type="text/css" href="css/cadastroelogin.css">
 
+	
 	<div class="display">
 		<div class="container" id="container">
 			<div class="form-container sign-in-container">
@@ -13,18 +14,24 @@
 					<h1>Entrar</h1>
 					<input type="email" name="email" placeholder="Email">
 					<input type="password" name="senha" placeholder="Senha">
-					<a href="#">Esqueceu a senha?</a>
+					<a href="#">Esqueceu a senha?</a>usuario
 					<button>Entrar</button>	
 				</form>
 			</div>
 
-			<div class="form-container sign-up-container">
-				<form action="/controller/cadastrar.php" method="POST" class="formuser">
+			<div class="form-container sign-up-container" >
+				<form action="/controller/cadastrar.php" method="POST" class="formuser" data-form="cadastrar">
 					<h1>Cadastro</h1>
+					<h1 class="message"></h1>
+					<label for="nome">Nome</label>
 					<input type="text" name="nome" placeholder="Nome">
+					<label for="nome">Telefone</label>
 					<input type="number" name="telefone" placeholder="Telefone">
+					<label for="nome">E-mail</label>					
 					<input type="email" name="email" placeholder="Email">
+					<label for="nome">Senha</label>					
 					<input type="password" name="senha" placeholder="Senha">
+					<label for="nome">Confirmar senha</label>					
 					<input type="password" name="confirmarSenha" placeholder="Confirmar Senha">
 					<button>Cadastrar</button>
 				</form>
@@ -52,6 +59,7 @@
 	</div>
 	
 		<?php include "components/footer.php" ?>
+		<script src="js/cadastrar.js"></script>
 		<script src="js/scrollMenuEfect.js"></script>
 		<script src="js/cel.js"></script>
 		<script src="js/validaInputCadastro.js"></script>	
