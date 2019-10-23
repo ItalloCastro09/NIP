@@ -6,6 +6,7 @@
   padding: 2rem 8rem;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   flex-wrap: wrap;
   position: fixed;
   width: 100%;
@@ -17,9 +18,9 @@
 
     &__item {
       display: inline-block;
-      width: 12rem;
       text-align: center;
       transition: all 0.4s ease-in-out;
+      cursor: pointer;
 
       // &:nth-child(2):hover ~ .line {
       //   transform: translate(12rem);
@@ -37,9 +38,14 @@
 
       //   width: 30%;
       // }
+      position: relative;
+      &:hover {
+        border-bottom: solid 1px tomato;
+      }
 
       a {
         color: $color-gray-dark;
+        text-decoration: none;
       }
     }
   }
