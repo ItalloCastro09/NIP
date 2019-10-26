@@ -1,7 +1,7 @@
 const form = document.querySelectorAll("[data-form]");
-const message = document.querySelector(".message");
+const message = document.querySelectorAll(".message");
 
-console.log(form);
+console.log(message);
 
 form.forEach(el => {
   el.addEventListener("submit", async function(event) {
@@ -15,11 +15,11 @@ form.forEach(el => {
     });
 
     if (get.status == 202) {
-      window.location.reload();
+      window.location.assign("/index.php");
     }
-    console.log(get);
     const result = await get.json();
+    console.log(result);
 
-    message.innerText = result.message;
+    message.forEach(el => (el.innerText = result.message));
   });
 });

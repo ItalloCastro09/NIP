@@ -3,11 +3,12 @@
   
   class Usuario {
 
-    public function cadastrarUsuario($nome, $email, $senha, $telefone) {
+    public function cadastrarUsuario($nome, $sobrenome, $email, $senha, $telefone) {
       $con = Connection::getConn();
-      $query = $con->prepare("INSERT INTO USUARIO (NOME, EMAIL, SENHA, TELEFONE)
-        VALUES (:NOME, :EMAIL, :SENHA, :TELEFONE)");
+      $query = $con->prepare("INSERT INTO USUARIO (NOME, SOBRENOME, EMAIL, SENHA, TELEFONE)
+        VALUES (:NOME, :SOBRENOME, :EMAIL, :SENHA, :TELEFONE)");
       $query->bindValue(":NOME", $nome);
+      $query->bindValue(":SOBRENOME", $sobrenome);
       $query->bindValue(":EMAIL", $email);
       $query->bindValue(":SENHA", $senha);
       $query->bindValue(":TELEFONE", $telefone);
