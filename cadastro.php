@@ -13,27 +13,36 @@
 				<form action="/controller/login.php" method="POST" class="formuser" data-form="login">
 					<h1>Entrar</h1>
 					<h1 class="message"></h1>
-					<input type="email" name="email" placeholder="Email">
-					<input type="password" name="senha" placeholder="Senha">
-					<a href="#">Esqueceu a senha?</a>usuario
+					E-mail
+					<input type="email" name="email" placeholder="Ex: mario@gmail.com">
+					Senha
+					<input type="password" name="senha" placeholder="••••••••">
+					<a href="#">Esqueceu a senha?</a>
 					<button>Entrar</button>	
 				</form>
 			</div>
 
-			<div class="form-container sign-up-container" >
+				<div class="form-container sign-up-container" >
 				<form action="/controller/cadastrar.php" method="POST" class="formuser" data-form="cadastrar">
 					<h1>Cadastro</h1>
 					<h1 class="message"></h1>
-					<input type="text" name="nome" placeholder="Nome">
-					<input type="text" name="sobrenome" placeholder="sobrenome">
-					<input type="number" name="telefone" placeholder="Telefone">
-					<input type="email" name="email" placeholder="Email">
-					<input type="password" name="senha" placeholder="">
-					<input type="password" name="confirmarSenha" placeholder="">
+					Nome
+					<input type="text" name="nome">
+					Sobrenome
+					<input type="text" name="sobrenome">
+					Telefone
+					<input type="number" name="telefone">
+					E-mail
+					<input type="email" name="email" placeholder="Ex: mario@gmail.com">
+					Senha
+					<input type="password" name="senha" placeholder="••••••••">
+					Confirmar Senha
+					<input type="password" name="confirmarSenha" placeholder="••••••••">
 					<button>Cadastrar</button>
 				</form>
-			</div>
-
+				</div>
+				
+			
 				<div class="overlay-container">
 					<div class="overlay">
 						<div class="overlay-panel overlay-left">
