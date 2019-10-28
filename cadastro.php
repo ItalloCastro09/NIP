@@ -4,15 +4,18 @@
 <body>
 	<?php include "components/menu-top.php" ?>
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+	<link rel="stylesheet" href="css/message.css">
 	<link rel="stylesheet" type="text/css" href="css/cadastroelogin.css">
+	        
+	<?php if(isset($_GET["message"])) : ?>
+		<div class="message"><?= $_GET["message"] ?></div>
+	<?php endif ?>
 
-	
 	<div class="display">
 		<div class="container" id="container">
 			<div class="form-container sign-in-container">
 				<form action="/controller/login.php" method="POST" class="formuser" data-form="login">
 					<h1>Entrar</h1>
-					<h1 class="message"></h1>
 					E-mail
 					<input type="email" name="email" placeholder="Ex: mario@gmail.com">
 					Senha
@@ -25,7 +28,6 @@
 				<div class="form-container sign-up-container" >
 				<form action="/controller/cadastrar.php" method="POST" class="formuser" data-form="cadastrar">
 					<h1>Cadastro</h1>
-					<h1 class="message"></h1>
 					Nome
 					<input type="text" name="nome">
 					Sobrenome
@@ -65,7 +67,6 @@
 	</div>
 	
 		<?php include "components/footer.php" ?>
-		<script src="js/cadastrar.js"></script>
 		<script src="js/scrollMenuEfect.js"></script>
 		<script src="js/cel.js"></script>
 		<script src="js/validaInputCadastro.js"></script>	

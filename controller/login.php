@@ -4,15 +4,14 @@
   $senha = md5($_POST["senha"]);
 
   $usuario = new Usuario();
-
+  
   if (!empty($email) && !empty($senha)) {
     if ($usuario->login($email, $senha)) {
-      http_response_code(202);
       echo json_encode(["message" => "entrou"]); 
-      //header("Location: /index.php");    
+      header("Location: /index.php");
     } else {
-      echo json_encode(["message" => "Usuario não exisite"]);
+      header("Location: /cadastro.php?message=E-mail ou senha inválidos.");
     }
   } else {
-    echo json_encode(["message" => "Preencha todos os campos"]);
+    header("Location: /cadastro.php?message=Preencha todos os campos.");
   }

@@ -19,13 +19,16 @@ form.forEach(el => {
       }
     });
 
+
     const result = await getImgur.json();
+
+    console.log(result);
 
     const formData = new FormData(this);
     console.log(result.data.link);
     formData.append("imageUrl", result.data.link);
 
-    const postUser = await fetch("/test.php", {
+    const postUser = await fetch("/controller/addLivro.php", {
       method: "POST",
       body: formData
     });

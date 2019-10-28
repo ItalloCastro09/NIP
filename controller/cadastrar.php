@@ -1,4 +1,5 @@
 <?php
+  session_start();
   include "../model/Usuario.php";
 
   $nome = $_POST["nome"];
@@ -11,12 +12,20 @@
 
   $usuario = new Usuario();
 
-
-  
-  if($usuario->verificaUsuarioExiste($_POST["email"])) {
-    $usuario->cadastrarUsuario($nome, $sobrenome, $email, $senha, $telefone);
-    echo json_encode(["message" => "cadastrado com sucesso"]);
-    http_response_code(201);
-  } else {
-    echo json_encode(["message" => "usuario já cadastrado"]);
+  if($senha != $confirmarSenha) {
+    header("Location: /cadastro.php?message=Senhas nao coincidem.");
   }
+
+  if (!empty($email) && !empty($senha) && !empty($nome) && !empty($sobrenome) && !empty($telefone) && !empty($confirmarSenha) ) {
+    if($usuario->verificaUsuarioExiste($_POST["email"])) {
+      $usuario->cadastrarUsuario($nome, $sobrenome, $email, $senha, $telefone);
+      $usuario->login($email, $senha);
+      header("Location: /index.php");
+    } else {
+      header("Location: /cadastro.php?message=Usuario já cadastrado.");
+    }
+  } else {
+    header("Location: /cadastro.php?message=Preencha todos os campos.");
+  }
+  
+ 
