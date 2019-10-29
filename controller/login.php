@@ -8,10 +8,10 @@
   if (!empty($email) && !empty($senha)) {
     if ($usuario->login($email, $senha)) {
       echo json_encode(["message" => "entrou"]); 
-      header("Location: /index.php");
+      header("Location: /views/index.php");
     } else {
-      header("Location: /cadastro.php?message=E-mail ou senha inválidos.");
+      header("Location: /views/cadastro.php?message=E-mail ou senha inválidos.");
     }
   } else {
-    header("Location: /cadastro.php?message=Preencha todos os campos.");
+    header("Location: /views/cadastro.php?message=Preencha todos os campos.");
   }

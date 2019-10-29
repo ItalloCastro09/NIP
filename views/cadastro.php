@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
-<?php include "components/header.php"?>
+<?php include "../components/header.php"?>
 <body>
-	<?php include "components/menu-top.php" ?>
+	<?php include "../components/menu-top.php" ?>
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
-	<link rel="stylesheet" href="css/message.css">
-	<link rel="stylesheet" type="text/css" href="css/cadastroelogin.css">
+	<link rel="stylesheet" href="../css/message.css">
+	<link rel="stylesheet" type="text/css" href="../css/cadastroelogin.css">
 	        
 	<?php if(isset($_GET["message"])) : ?>
 		<div class="message"><?= $_GET["message"] ?></div>
@@ -66,9 +66,9 @@
 		</div> 
 	</div>
 	
-		<?php include "components/footer.php" ?>
-		<script src="js/scrollMenuEfect.js"></script>
-		<script src="js/cel.js"></script>
-		<script src="js/validaInputCadastro.js"></script>	
+		<?php include "../components/footer.php" ?>
+		<script src="../js/scrollMenuEfect.js"></script>
+		<script src="../js/cel.js"></script>
+		<script src="../js/validaInputCadastro.js"></script>	
 </body>
 </html>

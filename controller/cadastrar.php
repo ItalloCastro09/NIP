@@ -14,6 +14,7 @@
 
   if($senha != $confirmarSenha) {
     header("Location: /cadastro.php?message=Senhas nao coincidem.");
+    exit();
   }
 
   if (!empty($email) && !empty($senha) && !empty($nome) && !empty($sobrenome) && !empty($telefone) && !empty($confirmarSenha) ) {

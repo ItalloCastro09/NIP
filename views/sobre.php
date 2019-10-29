@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 
-	<?php include "components/header.php" ?>
+	<?php include "../components/header.php" ?>
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" charset="utf-8"></script>
-	<link rel="stylesheet" href="css/sobre.css">
+	<link rel="stylesheet" href="../css/sobre.css">
 
 <body>
 
-<?php include "components/menu-top.php" ?>
+<?php include "../components/menu-top.php" ?>
 
 	<section class="info">
 		<h1 class="heading-primary">O que é Trade Book?</h1>
@@ -25,13 +25,13 @@ Cadastra-se agora!
 		  <h1>Contribuidores</h1>
 
 		  <div class="testimonial-pics">
-		    	<img src="img/Itallo.jpg" alt="i1" class="active">
-				<img src="img/Jammilly.jpg" alt="i2" class="active">
-				<img src="img/Joan.jpg" alt="i3" class="active">
-				<img src="img/Luana.jpg" alt="i4" class="active">
-				<img src="img/Lucas.jpg" alt="i5" class="active">
-				<img src="img/Maele.jpg" alt="i6" class="active">
-				<img src="img/Welyson.jpg" alt="i7" class="active">
+		    	<img src="../img/Itallo.jpg" alt="i1" class="active">
+				<img src="../img/Jammilly.jpg" alt="i2" class="active">
+				<img src="../img/Joan.jpg" alt="i3" class="active">
+				<img src="../img/Luana.jpg" alt="i4" class="active">
+				<img src="../img/Lucas.jpg" alt="i5" class="active">
+				<img src="../img/Maele.jpg" alt="i6" class="active">
+				<img src="../img/Welyson.jpg" alt="i7" class="active">
 			</div>
 		   </div>
 
@@ -88,9 +88,9 @@ Cadastra-se agora!
 		   </div>
 		</div>
 
-	<script src="js/sobre.js"></script>
-	<script src="js/scrollMenuEfect.js"></script>
+	<script src="../js/sobre.js"></script>
+	<script src="../js/scrollMenuEfect.js"></script>
 
-	<?php include "components/footer.php" ?>
+	<?php include "../components/footer.php" ?>
 </body>
 </html>

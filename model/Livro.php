@@ -10,13 +10,25 @@
       $query->bindValue(":NOME", $nome);
       $query->bindValue(":AUTOR", $autor);   
       $query->bindValue(":IDIOMA", $idioma);   
+      $query->bindValue(":IMAGEM", $imagem);   
       $query->bindValue(":DESCRICAO", $descricao);   
       $query->bindValue(":PAGINA", $pagina);   
       $query->bindValue(":USUARIO", $usuarioId);   
-      $query->bindValue(":IMAGEM", $imagem);   
-     $query->execute();
-      
+      $query->execute();   
+    }
+
+    public function listarTodosLivros() {
+      $con = Connection::getConn();
+      $query = $con->prepare("SELECT * FROM LIVRO");
+      $query->execute();
+      return $query->fetchAll();
+    }
+
+    public function buscaLivroEspecifico($id) {
+      $con = Connection::getConn();
+      $query = $con->prepare("SELECT * FROM LIVRO WHERE ID = :ID");
+      $query->bindValue(":ID", $id);
+      $query->execute();
+      return $query->fetch();
+    }
   }
-
-
-}

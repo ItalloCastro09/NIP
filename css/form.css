@@ -1,0 +1,21 @@
+.form {
+  padding: 200px;
+  background: tomato;
+  display: flex;
+  flex-direction: column;
+}
+
+.form > * {
+  width: 50%;
+}
+
+
+.form__input {
+  border: solid 2px black;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.form__label {
+  font-size: 2rem;
+}

@@ -34,7 +34,7 @@
     $pms = json_decode($out,true);
     $url=$pms['data']['link'];
     $livro->cadastrar($nome, $autor, $idioma, $descricao, $pagina, $usuarioId, $url);
-    header("Location: /listLivros.php");
+    header("Location: /views/listLivros.php");
    }
   }
   
