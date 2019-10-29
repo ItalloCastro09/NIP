@@ -12,6 +12,8 @@
 	<h1>Extraordinário</h1><br><br>
 	<h2>Ano: 2012</h2><h2>Autor:  R. J. Palacio</h2>
 	<h2>Idioma: Portugês</h2><h2>Descrição: Capa Dura.</h2>
+		<a href="index.php"><h3>Voltar</h3></a>
+
 </div>
 </div>
 </body>
