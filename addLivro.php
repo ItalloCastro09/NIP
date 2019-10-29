@@ -19,6 +19,7 @@
       <h1>Cadastre seu livro</h1>
       <input class="form__input" type="text" name="nome">
       <input class="form__input" type="text" name="autor">
+      <input class="form__input" type="date" name="Data de lançamento">
       <input class="form__input" type="text" name="idioma">
       <input class="form__input" type="text" name="descricao">
       <input class="form__input" type="number" name="pagina">
