@@ -12,6 +12,8 @@
 	<h1>O Pequeno Príncipe</h1><br><br>
 	<h2>Ano: 1993</h2><h2>Autor: Antoine de Saint-Exupéry</h2>
 	<h2>Idioma: Portugês</h2><h2>Descrição: Em perfeito estado.</h2>
+		<a href="index.php"><h3>Voltar</h3></a>
+
 </div>
 </div>
 </body>
