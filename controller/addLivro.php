@@ -42,12 +42,3 @@
   
 
 ?>
-
-
-
-<pre>
-  <?php
-    print_r($pms);
-  ?>
-</pre>
-

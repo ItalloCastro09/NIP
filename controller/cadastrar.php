@@ -13,7 +13,7 @@
   $usuario = new Usuario();
 
   if($senha != $confirmarSenha) {
-    header("Location: /cadastro.php?message=Senhas nao coincidem.");
+    header("Location: /views/cadastro.php?message=Senhas nao coincidem.");
     exit();
   }
 
@@ -23,10 +23,10 @@
       $usuario->login($email, $senha);
       header("Location: /index.php");
     } else {
-      header("Location: /cadastro.php?message=Usuario já cadastrado.");
+      header("Location: /views/cadastro.php?message=Usuario já cadastrado.");
     }
   } else {
-    header("Location: /cadastro.php?message=Preencha todos os campos.");
+    header("Location: /views/cadastro.php?message=Preencha todos os campos.");
   }
   
  

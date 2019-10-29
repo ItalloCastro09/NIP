@@ -20,7 +20,7 @@
           <li class=" header-menu__item" data-dropdown="" data-color="white">Livro
             <ul class="dropdown">
               <li class="dropdown__item"><a href="/views/addLivro.php">Anunciar</a></li>
-              <li class="dropdown__item"><a href="/views/sair.php">Historico</a></li>
+              <li class="dropdown__item"><a href="/views/listLivro.php">Historico</a></li>
             </ul>
           </li>-
 

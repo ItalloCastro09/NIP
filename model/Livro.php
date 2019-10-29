@@ -31,4 +31,20 @@
       $query->execute();
       return $query->fetch();
     }
+
+    public function todosLivrosUsuario($id) {
+      $con = Connection::getConn();
+      $query = $con->prepare("SELECT * FROM LIVRO WHERE USUARIO_ID = :ID");
+      $query->bindValue(":ID", $id);
+      $query->execute();
+      return $query->fetchAll();
+    }
+
+    public function apgarLivro($usuarioId, $id) {
+      $con = Connection::getConn();
+      $query = $con->prepare("DELETE FROM LIVRO WHERE USUARIO_ID = :USUARIO_ID AND ID = :ID");
+      $query->bindValue(":USUARIO_ID", $usuarioId);
+      $query->bindValue(":ID", $id);
+      $query->execute();
+    }
   }
