@@ -16,9 +16,9 @@
 			<div class="form-container sign-in-container">
 				<form action="/controller/login.php" method="POST" class="formuser" data-form="login">
 					<h1>Entrar</h1>
-					E-mail
+					<legend class="lg">E-mail</legend>
 					<input type="email" name="email" placeholder="Ex: mario@gmail.com">
-					Senha
+					<legend class="lg">Senha</legend>
 					<input type="password" name="senha" placeholder="••••••••">
 					<a href="#">Esqueceu a senha?</a>
 					<button>Entrar</button>	
