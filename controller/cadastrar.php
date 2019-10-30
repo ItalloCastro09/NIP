@@ -12,10 +12,10 @@
 
   $usuario = new Usuario();
 
-  if($senha != $confirmarSenha) {
-    header("Location: /views/cadastro.php?message=Senhas nao coincidem.");
-    exit();
-  }
+  //if($senha != $confirmarSenha) {
+    //header("Location: /views/cadastro.php?message=Senhas nao coincidem.");
+  //  exit();
+  //}
 
   if (!empty($email) && !empty($senha) && !empty($nome) && !empty($sobrenome) && !empty($telefone) && !empty($confirmarSenha) ) {
     if($usuario->verificaUsuarioExiste($_POST["email"])) {
