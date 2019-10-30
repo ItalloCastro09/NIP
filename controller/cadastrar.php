@@ -6,7 +6,7 @@
   $sobrenome = $_POST["sobrenome"];
   $email = $_POST["email"];
   $senha = md5($_POST["senha"]);
-  $confirmarSenha = $_POST["confirmarSenha"];
+  $confirmarSenha = md5($_POST["confirmarSenha"]);
   $telefone = $_POST["telefone"];
   
 
