@@ -188,3 +188,20 @@ button.ghost {
 .container.right-panel-active .overlay {
   transform: translateX(50%);
 }
+
+.lg{
+  margin-top: -20px;
+  margin-bottom: -20px;
+}
+
+.ip{
+  height: 40px;
+}
+
+.bt{
+  margin-top: 10px;
+}
+
+.tt{
+  margin-bottom: 10px;
+}
