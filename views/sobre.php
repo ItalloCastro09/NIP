@@ -30,8 +30,6 @@ Cadastra-se agora!
 				<img src="../img/Joan.jpg" alt="i3" class="active">
 				<img src="../img/Luana.jpg" alt="i4" class="active">
 				<img src="../img/Lucas.jpg" alt="i5" class="active">
-				<img src="../img/Maele.jpg" alt="i6" class="active">
-				<img src="../img/Welyson.jpg" alt="i7" class="active">
 			</div>
 		   </div>
 
@@ -68,20 +66,6 @@ Cadastra-se agora!
 
 				<span class="dcrp">Lucas Felinto<br>GitHub: LucasFelinto</span><br>
 				<span class="sp">elucasfelinto@gmail.com</span>
-
-		   </div>
-
-		   <div class="testimonial" id="i6">
-
-				<span class="dcrp">Maele Rodrigues<br>GitHub: MaeleRodrigues</span><br>
-				<span class="sp">maele.arruda@gmail.com</span>
-
-		   </div>
-
-		   <div class="testimonial" id="i7">
-
-				<span class="dcrp">Welyson Santana<br>GitHub: ...</span><br>
-				<span class="sp">well...</span>
 
 		   </div>
 
