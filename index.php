@@ -1,4 +1,6 @@
-<<<<<<< HEAD
+<?php
+    header("Location: /views/index.php");
+?>
 <!DOCTYPE html>
 <html lang="pt-BR">
 <?php include "components/header.php" ?>
@@ -43,24 +45,3 @@
 <p id="rating">0</p>
 </body>
 </html>
-=======
-<!DOCTYPE html>
-<html lang="pt-BR">
-<?php include "components/header.php" ?>
-<link rel="stylesheet" type="text/css" href="css/descriplivros.css">
-<body>
-
-<?php include "components/menu-top.php" ?>
-
-<div class="book__description">
-<img class="exemplodelivros" src="http://4.bp.blogspot.com/-uO59jBa8yGg/WBqFrzbAYyI/AAAAAAAADN0/3hp-nItF3Ds9NNwCg7M9uq77bMkpYp0kwCK4B/s1600/2-1280x853.jpg" alt="">
-<div class="description">
-	<h1>Por Lugares Incríveis</h1><br><br>
-	<h2>Ano: 2015</h2><h2>Autor: Jennifer Niven</h2>
-	<h2>Idioma: Português</h2><h2>Descrição: Capa Comum, Semi-novo.</h2>
-		<a href="index.php"><h3>Voltar</h3></a>
-</div>
-</div>
-</body>
-</html>
->>>>>>> 5c79f1979764130a3f6d56353eb5ad78e113cb38

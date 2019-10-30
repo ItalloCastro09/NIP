@@ -12,8 +12,8 @@
 
 
   $img=$_FILES['img'];
-  if(isset($_POST['submit'])){ 
-   if($img['name']==''){  
+  if(isset($_POST['submit'])){
+   if($img['name']==''){
     echo "<h2>An Image Please.</h2>";
    }else{
     $filename = $img['tmp_name'];
@@ -34,11 +34,11 @@
     $pms = json_decode($out,true);
     $url=$pms['data']['link'];
     $livro->cadastrar($nome, $autor, $idioma, $descricao, $pagina, $usuarioId, $url);
-    header("Location: /views/listLivros.php");
+    header("Location: /views/listLivro.php");
    }
   }
-  
-   
-  
+
+
+
 
 ?>
