@@ -27,20 +27,20 @@
 
 				<div class="form-container sign-up-container" >
 				<form action="/controller/cadastrar.php" method="POST" class="formuser" data-form="cadastrar">
-					<h1>Cadastro</h1>
-					Nome
-					<input type="text" name="nome">
-					Sobrenome
-					<input type="text" name="sobrenome">
-					Telefone
-					<input type="number" name="telefone">
-					E-mail
-					<input type="email" name="email" placeholder="Ex: mario@gmail.com">
-					Senha
-					<input type="password" name="senha" placeholder="••••••••">
-					Confirmar Senha
-					<input type="password" name="confirmarSenha" placeholder="••••••••">
-					<button>Cadastrar</button>
+					<h1 class="tt">Cadastro</h1>
+					<legend class="lg">Nome</legend>
+					<input class="ip" type="text" name="nome">
+					<legend class="lg">Sobrenome</legend>	
+					<input class="ip" type="text" name="nome">
+					<legend class="lg">Telefone</legend>
+					<input class="ip" type="number" name="telefone">
+					<legend class="lg">E-mail</legend>
+					<input class="ip" type="email" name="email" placeholder="Ex: mario@gmail.com">
+					<legend class="lg">Senha</legend>
+					<input class="ip" type="password" name="senha" placeholder="••••••••">
+					<legend class="lg">Confirmar Senha</legend>
+					<input class="ip" type="password" name="confirmarSenha" placeholder="••••••••">
+					<button class="bt">Cadastrar</button>
 				</form>
 				</div>
 				
