@@ -31,7 +31,7 @@
 					<legend class="lg">Nome</legend>
 					<input class="ip" type="text" name="nome">
 					<legend class="lg">Sobrenome</legend>	
-					<input class="ip" type="text" name="nome">
+					<input class="ip" type="text" name="sobrenome">
 					<legend class="lg">Telefone</legend>
 					<input class="ip" type="number" name="telefone">
 					<legend class="lg">E-mail</legend>
