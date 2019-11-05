@@ -7,6 +7,8 @@
 	<?php include "../components/header.php" ?>
 	<body>
 		<?php include "../components/menu-top.php" ?>
+
+		<h1 class="lv">Livros Disponíveis</h1>
 		
 		<section class="book-box">
 			<?php foreach($livro->listarTodosLivros() as $dataLivros ): ?>
