@@ -7,18 +7,20 @@
 	<?php include "../components/header.php" ?>
 	<body>
 		<?php include "../components/menu-top.php" ?>
-		
-		<section class="book-box">
+
+		<div>
 			<h1 class="lv">Livros Disponíveis</h1>
-			<?php foreach($livro->listarTodosLivros() as $dataLivros ): ?>
-				<a href="/views/livroPost.php?id=<?= $dataLivros['ID'] ?>" class="book">
-					<img class="book__img" src="<?= $dataLivros["IMAGEM"] ?>" alt="">
-					<div class="book__paragraph">
-						<h1 class="heading-logo heading-logo--white"><?= $dataLivros["NOME"] ?></h1>
-					</div>
-				</a>
-			<?php endforeach ?>
-		</section>
+			<section class="book-box">
+				<?php foreach($livro->listarTodosLivros() as $dataLivros ): ?>
+					<a href="/views/livroPost.php?id=<?= $dataLivros['ID'] ?>" class="book">
+						<img class="book__img" src="<?= $dataLivros["IMAGEM"] ?>" alt="">
+						<div class="book__paragraph">
+							<h1 class="heading-logo heading-logo--white"><?= $dataLivros["NOME"] ?></h1>
+						</div>
+					</a>
+				<?php endforeach ?>
+			</section>
+		</div>
 	
 
 		<section class="hero">
