@@ -33,7 +33,7 @@
 					<legend class="lg">Sobrenome</legend>	
 					<input class="ip" type="text" name="sobrenome">
 					<legend class="lg">Telefone</legend>
-					<input class="ip" type="number" name="telefone">
+					<input class="ip fone" type="text" name="telefone">
 					<legend class="lg">E-mail</legend>
 					<input class="ip" type="email" name="email" placeholder="Ex: mario@gmail.com">
 					<legend class="lg">Senha</legend>
@@ -69,6 +69,9 @@
 		<?php include "../components/footer.php" ?>
 		<script src="../js/scrollMenuEfect.js"></script>
 		<script src="../js/cel.js"></script>
-		<script src="../js/validaInputCadastro.js"></script>	
+		<script src="../js/validaInputCadastro.js"></script>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js"></script>
+		<script src="../js/maskfone.js"></script>	
 </body>
 </html>
