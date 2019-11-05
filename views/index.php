@@ -7,10 +7,9 @@
 	<?php include "../components/header.php" ?>
 	<body>
 		<?php include "../components/menu-top.php" ?>
-
-		<h1 class="lv">Livros Disponíveis</h1>
 		
 		<section class="book-box">
+			<h1 class="lv">Livros Disponíveis</h1>
 			<?php foreach($livro->listarTodosLivros() as $dataLivros ): ?>
 				<a href="/views/livroPost.php?id=<?= $dataLivros['ID'] ?>" class="book">
 					<img class="book__img" src="<?= $dataLivros["IMAGEM"] ?>" alt="">
