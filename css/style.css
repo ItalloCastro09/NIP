@@ -274,4 +274,12 @@ svg {
   -ms-flex-pack: center;
 }
 
+.lv{
+  text-align: center;
+  font-family: "Raleway";
+  margin-top: 20px;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
 /*# sourceMappingURL=style.css.map */
