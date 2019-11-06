@@ -9,7 +9,6 @@
 		<?php include "../components/menu-top.php" ?>
 
 		<div>
-			<h1 class="lv">Livros Disponíveis</h1>
 			<section class="book-box">
 				<?php foreach($livro->listarTodosLivros() as $dataLivros ): ?>
 					<a href="/views/livroPost.php?id=<?= $dataLivros['ID'] ?>" class="book">
@@ -21,7 +20,7 @@
 				<?php endforeach ?>
 			</section>
 		</div>
-	
+
 
 		<section class="hero">
 			<p> “A doação é um exercício de desapego.<br /> Ela deve beneficiar mais quem doa do<br /> que quem recebe.”</p>
