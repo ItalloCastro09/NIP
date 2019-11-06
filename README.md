@@ -5,6 +5,7 @@
 # Curso: Informática para internet
 
 # Professor: Alexandre Strapação Vianna
+
 # NIP(Node in Pijamas)
 
  ## Nome do grupo: **NIP (Node In Pijamas);**
@@ -21,11 +22,3 @@
  ### pjaanf@gmail.com;
  ### elucasfelinto@gmail.com;
  ### lua.m.016@gmail.com;
- 
- ## P&P I.
-
-## Instituto Federal de Educação, Ciência e Tecnologia de Pernambuco - Campus Igarassu
-
-## Curso: Informática para internet
-
-## Professor: Alexandre Strapação Vianna
