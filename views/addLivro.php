@@ -14,10 +14,9 @@
 	<body>
 		<?php include "../components/menu-top.php" ?>
 
-
-
+  <div class="box">
     <form class="form" action="/controller/addLivro.php" enctype="multipart/form-data" method="POST">
-      <h1>Cadastre seu livro.</h1>
+      <h1>Cadastre seu livro</h1>
       <label class="form__label"for="nome">Nome</label>
       <input class="form__input" type="text" id="nome" name="nome">
       <label class="form__label"for="nome">Autor</label>
@@ -28,10 +27,13 @@
       <input class="form__input" type="text" name="descricao">
       <label class="form__label"for="nome">Número de paginas</label>                  
       <input class="form__input" type="number" name="pagina">
+      <label class="form__label" for="nome">Selecione uma foto</label>
       <input type="hidden" name="usuarioId" value="<?=$_SESSION["id_usuario"]["ID"]?>">
-      Choose Image : <input name="img" size="35" type="file"/><br/>
+      <input name="img" size="35" type="file"/><br/>
       <input type="submit" name="submit" value="Upload"/>
     </form>
+  </div>
+    
 
 
 		</section>
