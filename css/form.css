@@ -6,6 +6,8 @@
   text-align: center;
   padding-top: 100px;
   padding-left: 500px;
+  position: absolute;
+  top: 5%;
 }
 
 .form > * {
@@ -23,12 +25,4 @@
 .form__label {
  font-size: 15px;
 
-}
-
-.box{
-  /*width: 1000px;
-  padding: 500px;*/
-  position: absolute;
-  top: 5%;
-  /*left: 100%;*/
 }

@@ -14,7 +14,7 @@
 	<body>
 		<?php include "../components/menu-top.php" ?>
 
-  <div class="box">
+  
     <form class="form" action="/controller/addLivro.php" enctype="multipart/form-data" method="POST">
       <h1>Cadastre seu livro</h1>
       <label class="form__label"for="nome">Nome</label>
@@ -32,7 +32,7 @@
       <input name="img" size="35" type="file"/><br/>
       <input type="submit" name="submit" value="Upload"/>
     </form>
-  </div>
+  
     
 
 
