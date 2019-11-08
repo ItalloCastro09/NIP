@@ -1,12 +1,17 @@
 .form {
-  padding: 200px;
+  padding: 100px;
   background: #ffffff;
   display: flex;
   flex-direction: column;
+  text-align: center;
+  padding-top: 100px;
+  padding-left: 500px;
 }
 
 .form > * {
   width: 50%;
+
+
 }
 
 
@@ -14,8 +19,12 @@
   border: solid 2px black;
   padding: 20px;
   border-radius: 8px;
+  top:100%;
+  background: #f6f5f7;
+  border: 5px solid #f6f5f7;
 }
 
 .form__label {
-  font-size: 2rem;
+ font-size: 2rem;
+
 }
