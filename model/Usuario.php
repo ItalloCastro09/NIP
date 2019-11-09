@@ -1,6 +1,6 @@
 <?php
   require_once "../config/Conexao.php";
-  
+
   class Usuario {
 
     public function cadastrarUsuario($nome, $sobrenome, $email, $senha, $telefone) {
@@ -22,7 +22,7 @@
       $query->execute();
 
       if($query->rowCount() > 0) return false;
-      return true; 
+      return true;
     }
 
     public function login($email, $senha) {
@@ -39,9 +39,21 @@
         print_r($_SESSION["id_usuario"]);
         return true;
       }
-      
+
       return false;
     }
 
+    public function update($id, $nome, $sobrenome, $email, $senha, $telefone) {
+      $con = Connection::getConn();
+      $query = $con->prepare("UPDATE USUARIO
+      SET NOME = :nome, SOBRENOME = :sobrenome, EMAIL = :email, SENHA = :senha, TELEFONE = :telefone WHERE id = :id");
+      $query->bindValue(":id", $id);
+      $query->bindValue(":nome", $nome);
+      $query->bindValue(":sobrenome", $sobrenome);
+      $query->bindValue(":email", $email);
+      $query->bindValue(":senha", $senha);
+      $query->bindValue(":telefone", $telefone);
+      $query->execute();
+    }
 
   }

@@ -1,5 +1,5 @@
 <?php
-  session_start(); 
+  session_start();
   $id = $_SESSION["id_usuario"];
   if(!isset($id)){
     header("Location: /index.php");
@@ -14,30 +14,30 @@
 	<body>
 		<?php include "../components/menu-top.php" ?>
 
-  
+
     <form class="form" action="/controller/addLivro.php" enctype="multipart/form-data" method="POST">
       <h1>Cadastre seu livro</h1>
       <label class="form__label"for="nome">Nome</label>
       <input class="form__input" type="text" id="nome" name="nome">
       <label class="form__label"for="nome">Autor</label>
       <input class="form__input " type="text" name="autor">
-      <label class="form__label"for="nome">Idioma</label>      
+      <label class="form__label"for="nome">Idioma</label>
       <input class="form__input" type="text" name="idioma">
-      <label class="form__label"for="nome">Descrição</label>            
+      <label class="form__label"for="nome">Descrição</label>
       <input class="form__input" type="text" name="descricao">
-      <label class="form__label"for="nome">Número de paginas</label>                  
+      <label class="form__label"for="nome">Número de paginas</label>
       <input class="form__input" type="number" name="pagina">
       <label class="form__label" for="nome">Selecione uma foto</label>
       <input type="hidden" name="usuarioId" value="<?=$_SESSION["id_usuario"]["ID"]?>">
       <input name="img" size="35" type="file"/><br/>
       <input type="submit" name="submit" value="Upload"/>
     </form>
-  
-    
+
+
 
 
 		</section>
-	
+
 
 
     <script src="../js/scrollMenuEfect.js"></script>
