@@ -18,7 +18,7 @@
     <label class="form__label"for="nome">Repete a senha:</label>
     <input class="form__input" type="password" name="senha2">
     <label class="form__label"for="nome">Telefone:</label>
-    <input class="form__input" type="number" value="<?=$_SESSION["id_usuario"]["TELEFONE"]?>" name="telefone">
+    <input class="form__input" type="text" value="<?=$_SESSION["id_usuario"]["TELEFONE"]?>" name="telefone">
     <input type="hidden" name="usuarioId" value="<?=$_SESSION["id_usuario"]["ID"]?>">
     <input type="submit" value="Upload"/>
   </form>

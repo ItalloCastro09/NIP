@@ -8,7 +8,7 @@
   $senha = md5($_POST["senha"]);
   $confirmarSenha = $_POST["confirmarSenha"];
   $telefone = $_POST["telefone"];
-  
+
 
   $usuario = new Usuario();
 
@@ -21,12 +21,10 @@
     if($usuario->verificaUsuarioExiste($_POST["email"])) {
       $usuario->cadastrarUsuario($nome, $sobrenome, $email, $senha, $telefone);
       $usuario->login($email, $senha);
-      header("Location: /index.php");
+      header("Location: /views/index.php");
     } else {
       header("Location: /views/cadastro.php?message=Usuario já cadastrado.");
     }
   } else {
     header("Location: /views/cadastro.php?message=Preencha todos os campos.");
   }
-  
- 

@@ -1,12 +1,21 @@
+body {
+  background: rgb(224, 224, 224);
+
+}
+
 .form {
-  padding: 100px;
-  background: #ffffff;
+  height: 95vh;
   display: flex;
+  margin-top: 100px;
   flex-direction: column;
   text-align: center;
-  padding-top: 100px;
-  padding-left: 500px;
-  top: 5%;
+  width: 400px;
+  margin: 0 center;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  transform: translateX(-50%);
+  /* transform: translate(-50%, -50%); */
 }
 
 .form > * {

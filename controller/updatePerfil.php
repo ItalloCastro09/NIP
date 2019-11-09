@@ -20,6 +20,8 @@
   if (md5($senhaAntiga) === $_SESSION["id_usuario"]["SENHA"]) {
     if ($_POST["senha"] === $senha2) {
       $usuario->update($_SESSION["id_usuario"]["ID"], $nome, $sobrenome, $email, md5($senha), $telefone);
+      header("Location: /views/perfil.php?msg=Dados atualizados");
+
     } else {
     header("Location: /views/perfil.php?msg=as senhas nao coi");
     }

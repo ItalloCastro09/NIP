@@ -54,6 +54,10 @@
       $query->bindValue(":senha", $senha);
       $query->bindValue(":telefone", $telefone);
       $query->execute();
+
+      $this->login($email, $senha);
     }
+
+
 
   }

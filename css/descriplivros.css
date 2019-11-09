@@ -1,19 +1,39 @@
-.book__description {
-  background: #1f1d25;
-  color: #fff;  
-  font-size: 20px;
-  display: flex;
-  padding-top: 12rem;
-  height: 95vh;
-  justify-content: center;
+.container {
+  height: 95vh !important;
+
+}
+body {
+  background: rgb(224, 224, 224);
+}
+.post {
+  display: grid;
+  grid-template-columns: minmax(1.2rem, 1fr) minmax(auto, 57ch) minmax(1.2rem, 1fr);
+  margin-top: 100px;
+
 }
 
-.exemplodelivros{
-  width: 860px;
-  height: 650px;
-  border-radius: 1%;
+/* position text paragraphs into the second (middle) column */
+ h1 {
+  grid-column: 2;
+  text-align: center;
 }
 
-.description{
- margin-left: 1.6rem;
+
+p  {
+  grid-column: 1 / 4;
+  width: 100%;
+  max-width: 100ch;
+  justify-self: center;
+  border-radius: 8px;
+  font-size: 2rem;
+  text-align: center;
+
+}
+/* position images to take up all three columns */
+img {
+  grid-column: 1 / 4;
+  width: 100%;
+  max-width: 100ch;
+  justify-self: center;
+  border-radius: 8px;
 }
