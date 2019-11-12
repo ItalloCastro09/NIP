@@ -56,4 +56,19 @@
       return $query->fetch();
     }
 
+    public function update($id, $nome, $autor, $idioma, $descricao, $pagina) {
+      $con = Connection::getConn();
+      $query = $con->prepare("UPDATE LIVRO
+      SET NOME = :nome, AUTOR = :autor, IDIOMA = :idioma, DESCRICAO = :descricao, PAGINA = :pagina WHERE id = :id");
+      $query->bindValue(":id", $id);
+      $query->bindValue(":nome", $nome);
+      $query->bindValue(":autor", $autor);
+      $query->bindValue(":idioma", $idioma);
+      $query->bindValue(":descricao", $descricao);
+      $query->bindValue(":pagina", $pagina);
+      $query->execute();
+
+    }
+
+
   }

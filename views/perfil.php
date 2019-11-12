@@ -3,7 +3,14 @@
   <?php include "../components/header.php" ?>
 <body>
   <?php include "../components/menu-top.php" ?>
-  <form class="form" action="/controller/updatePerfil.php" enctype="multipart/form-data" method="POST">
+
+	<link rel="stylesheet" href="../css/message.css">
+
+  <?php if(isset($_GET["msg"])) : ?>
+		<div class="message"><?= $_GET["msg"] ?></div>
+	<?php endif ?>
+
+  <form style="margin-top: 140px" class="form" action="/controller/updatePerfil.php" enctype="multipart/form-data" method="POST">
     <h1>Alterar informações</h1>
     <label class="form__label"for="nome">Nome:</label>
     <input class="form__input" type="text" value="<?=$_SESSION["id_usuario"]["NOME"]?>" id="nome" name="nome">

@@ -23,12 +23,14 @@
     <section class="tabela-container">
       <table>
         <tr>
-          <th>Nome</th>
+          <th>Livro</th>
           <th>Remover</th>
+          <th>Editar</th>
         <?php foreach($livro->todosLivrosUsuario($idUsuario) as $data): ?>
           </tr>
             <td><?= $data["NOME"] ?></td>
             <td><a href="/controller/deletarLivro.php?idUsuario=<?= $idUsuario ?>&id=<?= $data["ID"] ?>">Remover</a></td>
+            <td><a href="/views/updateLivro.php?idUsuario=<?= $idUsuario ?>&id=<?= $data["ID"] ?>">Editar</a></td>
           </tr>
         <?php endforeach ?>
       </table> 

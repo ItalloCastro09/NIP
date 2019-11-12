@@ -23,24 +23,16 @@
       header("Location: /views/perfil.php?msg=Dados atualizados");
 
     } else {
-    header("Location: /views/perfil.php?msg=as senhas nao coi");
+    header("Location: /views/perfil.php?msg=Senha nova não coincidem");
     }
   } else {
     header("Location: /views/perfil.php?msg=senha antiga não corresponde");
   }
 
-  // print_r($_POST["usuarioId"]);
-
-  // echo strcmp($senha, $senha2);
-  // echo $senha;
-  // echo $senha2;
-  // print_r($_POST);
-  // print_r($_SESSION["id_usuario"]);
 ?>
 
 
 <pre>
   <?php
-    var_dump($_SESSION["id_usuario"]);
   ?>
 </pre>
