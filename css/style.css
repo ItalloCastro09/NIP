@@ -231,7 +231,7 @@ svg {
     color: white;
 }
 
-.dropdown__item li {
+.dropdown__item a {
     color: #333;
 }
 
