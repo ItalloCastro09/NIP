@@ -19,8 +19,8 @@
         <?php if(isset($_SESSION["id_usuario"])) : ?>
           <li class=" header-menu__item" data-dropdown="" data-color="white">Livro
             <ul class="dropdown">
-              <li class="dropdown__item"><a href="/views/addLivro.php">Anunciar</a></li>
-              <li class="dropdown__item"><a href="/views/listLivro.php">Historico</a></li>
+              <a href="/views/addLivro.php"><li class="dropdown__item">Anunciar</li></a>
+              <a href="/views/listLivro.php"><li class="dropdown__item">Historico</li></a>
             </ul>
           </li>-
 
