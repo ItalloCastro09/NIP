@@ -2,6 +2,10 @@
   top: 0;
 }
 
+.footer{
+  position: fixed;
+}
+
 body {
   background: rgb(224, 224, 224);
 
