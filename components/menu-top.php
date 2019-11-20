@@ -26,8 +26,8 @@
 
           <li class=" header-menu__item" data-dropdown="" data-color="white"><?=$_SESSION["id_usuario"]["NOME"]?> <?=$_SESSION["id_usuario"]["SOBRENOME"]?>
             <ul class="dropdown">
-              <li class="dropdown__item"><a href="/views/perfil.php">Editar</a></li>
-              <li class="dropdown__item"><a href="/views/sair.php">Sair</a></li>
+              <a href="/views/perfil.php"><li class="dropdown__item">Editar</li></a>
+              <a href="/views/sair.php"><li class="dropdown__item">Sair</li></a>
             </ul>
           </li>
 
