@@ -18,12 +18,6 @@
     <input class="form__input " type="text" value="<?=$_SESSION["id_usuario"]["SOBRENOME"]?>" name="sobrenome">
     <label class="form__label"for="nome">Email:</label>
     <input class="form__input" type="text" value="<?=$_SESSION["id_usuario"]["EMAIL"]?>" name="email">
-    <label class="form__label"for="nome">Senha antiga:</label>
-    <input class="form__input" type="password" name="senhaAntiga">
-    <label class="form__label"for="nome">Nova senha:</label>
-    <input class="form__input" type="password" name="senha">
-    <label class="form__label"for="nome">Repete a senha:</label>
-    <input class="form__input" type="password" name="senha2">
     <label class="form__label"for="nome">Telefone:</label>
     <input class="form__input" type="text" value="<?=$_SESSION["id_usuario"]["TELEFONE"]?>" name="telefone">
     <input type="hidden" name="usuarioId" value="<?=$_SESSION["id_usuario"]["ID"]?>">
