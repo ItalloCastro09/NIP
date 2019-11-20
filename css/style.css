@@ -201,6 +201,7 @@ body {
     justify-content: space-between;
     padding: 2rem 8rem;
     align-items: center;
+    bottom: 0;
 }
 
 svg {
