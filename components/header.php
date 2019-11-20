@@ -6,5 +6,6 @@
 	<link href="https://fonts.googleapis.com/css?family=Raleway:400,700|Source+Sans+Pro:400,700&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=EB+Garamond&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="../css/style.css">
+	<link rel="stylesheet" href="../css/form.css">
 	<title>Trade book</title>
 </head>
