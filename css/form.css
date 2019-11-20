@@ -1,9 +1,9 @@
-.header{
-  top: 0;
+*{
+  margin: 0;
 }
 
-.footer{
-  position: fixed;
+.header{
+  top: 0;
 }
 
 body {
