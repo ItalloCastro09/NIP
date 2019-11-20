@@ -19,15 +19,15 @@
         <?php if(isset($_SESSION["id_usuario"])) : ?>
           <li class=" header-menu__item" data-dropdown="" data-color="white">Livro
             <ul class="dropdown">
-              <a href="/views/addLivro.php"><li class="dropdown__item">Anunciar</li></a>
-              <a href="/views/listLivro.php"><li class="dropdown__item">Historico</li></a>
+              <a href="/views/addLivro.php" class="dropdown__item"><li>Anunciar</li></a>
+              <a href="/views/listLivro.php" class="dropdown__item"><li>Historico</li></a>
             </ul>
           </li>-
 
           <li class=" header-menu__item" data-dropdown="" data-color="white"><?=$_SESSION["id_usuario"]["NOME"]?> <?=$_SESSION["id_usuario"]["SOBRENOME"]?>
             <ul class="dropdown">
-              <a href="/views/perfil.php"><li class="dropdown__item">Editar</li></a>
-              <a href="/views/sair.php"><li class="dropdown__item">Sair</li></a>
+              <a href="/views/perfil.php" class="dropdown__item"><li>Editar</li></a>
+              <a href="/views/sair.php" class="dropdown__item"><li>Sair</li></a>
             </ul>
           </li>
 
