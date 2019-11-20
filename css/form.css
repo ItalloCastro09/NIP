@@ -14,7 +14,7 @@ h1{
 
 .form {
   padding: 0 50px;
-  height: 95vh;
+  height: 600px;
   display: flex;
   flex-direction: column;
   text-align: center;
