@@ -1,10 +1,10 @@
 .tabela-container {
   padding-top: 200px;
   height: 95vh;
-  background: #1f1d25;
+  background: white;
   display: flex;
   justify-content: center;
-  color: white;
+  color: #1f1d25;
   font-size: 25px;
   text-align: center;
 
