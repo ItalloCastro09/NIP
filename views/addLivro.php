@@ -11,6 +11,7 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 	<?php include "../components/header.php" ?>
+	<link rel="stylesheet" href="../css/form.css">
 	<body>
 		<?php include "../components/menu-top.php" ?>
 
