@@ -21,6 +21,7 @@
             <ul class="dropdown">
               <a href="/views/addLivro.php" class="dropdown__item"><li>Anunciar</li></a>
               <a href="/views/listLivro.php" class="dropdown__item"><li>Historico</li></a>
+              <a href="/views/pedidos.php" class="dropdown__item"><li>Pedidos</li></a>
             </ul>
           </li>-
 

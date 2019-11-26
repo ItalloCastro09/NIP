@@ -40,7 +40,7 @@ CREATE TABLE TROCA (
   ID INT NOT NULL AUTO_INCREMENT,
   MEU_LIVRO INT NOT NULL,
   INTERESSE_LIVRO INT NOT NULL,
-  STATUS enum('true', 'false'),
+  STATUS enum('true', 'false') DEFAULT "pendente",
 
   PRIMARY KEY (ID),
   FOREIGN KEY (MEU_LIVRO) references LIVRO (ID),

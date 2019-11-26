@@ -67,8 +67,5 @@
       $query->bindValue(":descricao", $descricao);
       $query->bindValue(":pagina", $pagina);
       $query->execute();
-
     }
-
-
   }

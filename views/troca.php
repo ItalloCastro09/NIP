@@ -15,16 +15,17 @@
   <?php include "../components/menu-top.php" ?>
 
   
-  <form action="" style="margin: 200px">
-    <label for="">Selecione um livro
-      
+  <form action="/controller/troca.php" method="POST" style="margin: 200px">
+    <label for="">
+      <h1>Selecione um livro</h1>
       <select name="idMeuLivro" id="">
       <?php foreach($livro->todosLivrosUsuario($_SESSION["id_usuario"]["ID"]) as $data): ?>
-        <option value=<?=$data["ID"]?>""><?=$data["NOME"]?></option>
+        <option value=<?=$data["ID"]?>><?=$data["NOME"]?></option>
       <?php endforeach ?>
       </select>
     </label>
     <input type="text" name="<?=$_GET["id"]?>" value="<?=$_GET["livroNome"]?>" disabled>
+    <input type="hidden" name="idInteresse" value="<?=$_GET["id"]?>">
     <input type="submit">
   </form>
 
