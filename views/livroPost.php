@@ -21,9 +21,10 @@
       <h1><?= $data["IDIOMA"] ?></h1>
       <p><?= $data["DESCRICAO"] ?></p>
       <h1>Enviador por: <?=$nome["NOME"]?></h1>
-
-      <h1><a href="/interesse.php/?id=<?=$data[0]?>&userId=<?=$userId?>">Tenho interesse</a></h1>
-      <div>
+      <?php if($data["USUARIO_ID"] != $_SESSION["id_usuario"]["ID"]) : ?>
+        <h1><a href="/views/troca.php?id=<?=$data[0]?>&livroNome=<?=$data["NOME"]?>">Tenho interesse</a></h1>
+      <?php endif  ?>      
+        <div>
       </div>
     </div>
   </div>
@@ -41,3 +42,11 @@
   <?php include "../components/footer.php"; ?>
 </body>
 </html>
+
+
+<pre>
+
+  <?php
+    print_r($data["NOME"]);
+  ?>
+</pre>
