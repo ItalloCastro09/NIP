@@ -58,6 +58,14 @@
       $this->login($email, $senha);
     }
 
+    public function troca($idInteresse, $idMeuLivro) {
+      $con = Connection::getConn();
+      $query = $con->prepare("INSERT INTO TROCA (MEU_LIVRO, INTERESSE_LIVRO) VALUES (:idInteresse, :idMeuLivro)");
+      $query->bindValue(":idInteresse", $idInteresse);
+      $query->bindValue(":idMeuLivro", $idMeuLivro);
+      $query->execute();
+    }
+
 
 
   }
