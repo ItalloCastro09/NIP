@@ -26,7 +26,6 @@ Cadastra-se agora!
 
 		  <div class="testimonial-pics">
 		    	<img src="../img/Itallo.jpg" alt="i1" class="active">
-				<img src="../img/Jammilly.jpg" alt="i2" class="active">
 				<img src="../img/Joan.jpg" alt="i3" class="active">
 				<img src="../img/Luana.jpg" alt="i4" class="active">
 				<img src="../img/Lucas.jpg" alt="i5" class="active">
@@ -38,13 +37,6 @@ Cadastra-se agora!
 
 				<span class="dcrp">Itallo Castro<br>GitHub: ItalloCastro09</span><br>
 				<span class="sp">castrocast2@gmail.com</span>
-
-		   </div>
-
-		   <div class="testimonial" id="i2">
-
-				<span class="dcrp">Jammilly Pereira<br>GitHub: Jammilly</span><br>
-				<span class="sp">pjaanf@gmail.com</span>
 
 		   </div>
 
