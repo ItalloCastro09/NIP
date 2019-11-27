@@ -1,3 +1,12 @@
+<?php
+  session_start();
+  $id = $_SESSION["id_usuario"];
+  if(!isset($id)){
+    header("Location: /index.php");
+    exit();
+  }
+?>
+
 <!DOCTYPE html>
 <html lang="en">
   <?php include "../components/header.php" ?>
