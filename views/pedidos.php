@@ -9,14 +9,13 @@
   require_once "../model/Livro.php";
   $idUsuario = $_SESSION["id_usuario"]["ID"];
   $livro = new Livro();
-
 ?>
 
 
 <!DOCTYPE html>
 <html lang="pt-BR">
 	<?php include "../components/header.php" ?>
-  <link rel="stylesheet" href="../css/tabela.css">
+  <link rel="sty  lesheet" href="../css/tabela.css">
   <body>
 		<?php include "../components/menu-top.php" ?>
 

@@ -4,6 +4,6 @@
   $idInteresse = $_POST["idInteresse"];
   $idMeuLivro = $_POST["idMeuLivro"];
   
-  $usario = new Usuario();
-  $usario->troca($idInteresse, $idMeuLivro);
+  $usuario = new Usuario();
+  $usuario->troca($idInteresse, $idMeuLivro);
   

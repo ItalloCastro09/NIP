@@ -15,6 +15,23 @@
   <?php include "../components/menu-top.php" ?>
 
   <div class="container">
+    <div class="book-img">
+      <img src="<?= $data['IMAGEM'] ?>" alt="">
+    </div>
+    <div class="book-info">
+      <div>
+        <h1 class="box"><?= $data["NOME"] ?></h1>
+        <h1 class="box"><span><?= $data["AUTOR"] ?></span></h1>
+      </div>
+      <div class="descricao box">
+        <p><?= $data["DESCRICAO"] ?></p>
+      </div>
+      <a class="btn-int" href="/views/troca.php?id=<?=$data[0]?>&livroNome=<?=$data["NOME"]?>">Tenho interesse</a>
+    </div>
+ 
+  </div>
+
+  <!-- <div class="container">
     <div class="post">
       <img src="<?= $data['IMAGEM'] ?>" alt="">
       <h1><?= $data["NOME"] ?>, <?= $data["AUTOR"] ?></h1>
@@ -22,31 +39,13 @@
       <p><?= $data["DESCRICAO"] ?></p>
       <h1>Enviador por: <?=$nome["NOME"]?></h1>
       <?php if($data["USUARIO_ID"] != $_SESSION["id_usuario"]["ID"]) : ?>
-        <h1><a href="/views/troca.php?id=<?=$data[0]?>&livroNome=<?=$data["NOME"]?>">Tenho interesse</a></h1>
       <?php endif  ?>      
         <div>
       </div>
     </div>
-  </div>
-
-  <!-- <div class="book__description">
-    <img class="exemplodelivros" src="" alt="">
-    <div class="description">
-	    <h1></h1>
-      <h2>Autor: </h2>
-      <h2>Idioma: </h2>
-      <h2>Descrição: <?= $data["DESCRICAO"] ?></h2>
-      <a href="/interesse.php/?id=<?=$data[0]?>&userId=<?=$userId?>">Tenho interesse</a>
-    </div>
   </div> -->
+
   <?php include "../components/footer.php"; ?>
 </body>
 </html>
 
-
-<pre>
-
-  <?php
-    print_r($data["NOME"]);
-  ?>
-</pre>

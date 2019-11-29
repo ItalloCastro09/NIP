@@ -11,12 +11,25 @@
 		<div>
 			<section class="book-box">
 				<?php foreach($livro->listarTodosLivros() as $dataLivros ): ?>
-					<a href="/views/livroPost.php?id=<?= $dataLivros['ID'] ?>" class="book">
+				<div class="book" >
+					<div class="book__img">
+						<a href="/views/livroPost.php?id=<?= $dataLivros['ID'] ?>">
+							<img src="<?= $dataLivros["IMAGEM"] ?>" alt="">
+						</a>
+					</div>
+					<a href="/views/livroPost.php?id=<?= $dataLivros['ID'] ?>">
+						<h1 class="book__title" ><?= $dataLivros["NOME"] ?></h1>
+					</a>
+
+				
+		
+					<!-- <a href="/views/livroPost.php?id=<?= $dataLivros['ID'] ?>" class="book">
 						<img class="book__img" src="<?= $dataLivros["IMAGEM"] ?>" alt="">
 						<div class="book__paragraph">
 							<h1 class="heading-logo heading-logo--white"><?= $dataLivros["NOME"] ?></h1>
 						</div>
-					</a>
+					</a> -->
+				</div>
 				<?php endforeach ?>
 			</section>
 		</div>

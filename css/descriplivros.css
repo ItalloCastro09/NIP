@@ -1,39 +1,49 @@
 .container {
-  height: 95vh !important;
-
-}
-body {
-  background: rgb(224, 224, 224);
-}
-.post {
-  display: grid;
-  grid-template-columns: minmax(1.2rem, 1fr) minmax(auto, 57ch) minmax(1.2rem, 1fr);
-  margin-top: 100px;
-
+  padding: 130px;
+  display: flex;
 }
 
-/* position text paragraphs into the second (middle) column */
- h1 {
-  grid-column: 2;
-  text-align: center;
-}
-
-
-p  {
-  grid-column: 1 / 4;
-  width: 100%;
-  max-width: 100ch;
+.book-img {
+  width: 400px;
   justify-self: center;
-  border-radius: 8px;
-  font-size: 2rem;
-  text-align: center;
-
 }
-/* position images to take up all three columns */
-img {
-  grid-column: 1 / 4;
-  width: 100%;
-  max-width: 100ch;
-  justify-self: center;
-  border-radius: 8px;
+
+.book-img img {
+  display: block;
+  margin: 0 auto; 
+  max-width: 2  00px;
+}
+
+.box {
+  background: #000;
+  width: 400px;
+  padding: 10px;
+  border-radius: 8px 0px 8px 0px;
+  color: white;
+}
+
+span {
+  font-style: italic;
+}
+
+.descricao {
+  font-size: 1.6rem;
+}
+
+.btn-int {
+  font-size: 1.9rem;
+  border: solid 2px black;
+  padding: 10px 20px;
+  display: inline-block;
+  margin: 20px auto 0 auto;
+  text-align: center;
+  color: black;
+  text-transform: uppercase;
+}
+
+.btn-int:hover {
+  background: #000;
+  color: white;
+  border: solid 2px white;
+
 }

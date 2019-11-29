@@ -1,12 +1,15 @@
 .book {
   display: grid;
-  grid-template-rows: auto 1fr;
   text-decoration: none;
   border-radius: 1px;
   overflow: hidden;
   -webkit-text-decoration: none;
   position: relative;
   transition: all 2s;
+  margin-top: 30px;
+  background: $color-white;
+  padding: 10%;
+  border-radius: 8px;
 
   /*
   &__img {
@@ -30,10 +33,13 @@
   */
 
   &__img {
-    width: 100%;
-    transition: all 2s ease-in-out;
-
-    &:hover {
+    height: 200px;
+    
+    
+    img {
+      display: block;
+      width: 100%;
+      height: 100%;      
     }
 
     &:hover ~ * {
@@ -41,22 +47,29 @@
     }
   }
 
-  &:hover div {
-    display: block;
-    animation: 1s fadeIn;
-  }
+  // &:hover div {
+  //   display: block;
+  //   animation: 1s fadeIn;
+  // }
 
-  &:hover img {
-    transform: scaleY(1.3) scaleX(1.3);
-    transition: all 2s;
-    filter: blur(2px) brightness(0.5);
-    display: block;
+  // &:hover img {
+  //   transform: scaleY(1.3) scaleX(1.3);
+  //   transition: all 2s;
+  //   filter: blur(2px) brightness(0.5);
+  //   display: block;
+  // }
+
+  &__title {
+    font-size: 2.2rem !important;
+
+    &:hover {
+      text-decoration: underline;
+    }
   }
 
   &__paragraph {
     color: #fff;
     padding: 1rem;
-    font-size: 1.4rem !important;
     display: none;
     text-align: center;
 
