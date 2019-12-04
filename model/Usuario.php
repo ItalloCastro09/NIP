@@ -66,6 +66,11 @@
       $query->execute();
     }
 
-
-
+    public function notificarUsuario($idInteresse, $idMeuLivro) {
+      $con = Connection::getConn();
+      $query = $con->prepare("SELECT MEU_LIVRO, INTERESSE_LIVRO FROM TROCA WHERE MEU_LIVRO = :idMeuLivro AND INTERESSE_LIVRO = :idInteresse");
+      $query->bindValue("idMeuLivro", $idMeuLivro);
+      $query->bindValue("idInteresse", $idInteresse);
+      $query->execute();
+    }
   }
