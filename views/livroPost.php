@@ -1,7 +1,7 @@
 <?php
   session_start();
 	include "../model/Livro.php";
-  //include "../model/Estrela.php";
+  	include "../model/Estrela.php";
   $livro = new Livro();
   $id = $_GET["id"];
   $data = $livro->buscaLivroEspecifico($id);
