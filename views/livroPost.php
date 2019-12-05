@@ -1,12 +1,12 @@
 <?php
   session_start();
 	include "../model/Livro.php";
-  include "../model/Estrela.php";
+  //include "../model/Estrela.php";
   $livro = new Livro();
   $id = $_GET["id"];
   $data = $livro->buscaLivroEspecifico($id);
   $nome = $livro->buscarNome($data["USUARIO_ID"]);
-  $estrelas = $livro->buscarAvaliacao($data["AVALIACAO_ID"]);
+  //$estrelas = $livro->buscarAvaliacao($data["AVALIACAO_ID"]);
 ?>
 <!DOCTYPE html>
 <html lang="pt-BR">
@@ -47,8 +47,8 @@
             <label for="estrela_cinco"><i class="fa"></i></label>
             <input type="radio" id="estrela_cinco" name="estrela" value="5">
 
-            <input type="hidden" name="usuarioId" value="<?=$nome["ID"]?>">
-            <input type="hidden" name="livroId" value="<?=$data["ID"]?>">
+            <!--<input type="hidden" name="usuarioId" value="<?=$nome["ID"]?>">
+            <input type="hidden" name="livroId" value="<?=$data["ID"]?>">-->
 
             <input type="submit" value="Avaliar">
 
