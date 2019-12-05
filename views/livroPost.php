@@ -78,7 +78,6 @@
   </div> -->
 
   <?php include "../components/footer.php"; ?>
-  <script src="../js/msg.js"></script>
 </body>
 </html>
 
