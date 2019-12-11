@@ -8,9 +8,9 @@
 	$usuarioId = $_POST['usuarioId'];
 
 
-	/*if(!empty($_POST['estrela'])){
+	if(!empty($_POST['estrela'])){
 		$estrela = $_POST['estrela'];
-		header("Location: ../views/livroPost.php?msg=Avaliado com sucesso.");
-	} else {
+		//header("Location: ../views/livroPost.php?msg=Avaliado com sucesso.");
+	} /*else {
 		header("Location: ../views/livroPost.php?msg=Necessário selecionar pelo menos 1 estrela.");
 	}*/
