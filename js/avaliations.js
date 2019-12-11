@@ -18,7 +18,7 @@ $(function(){
 		$('.star').removeClass('full');
 	});
 
-	$('.star').on('click', function(){
+	/*$('.star').on('click', function(){
 		var idLivro = $('.livroDados').attr('data-id');
 		alert(idLivro);
 		var voto = $(this).attr('data-vote');
@@ -26,5 +26,5 @@ $(function(){
 			avaliacao(retorno.average);
 			$('.votos span').html(retorno.votos);
 		}, 'jSON');
-	});
+	});*/
 });
