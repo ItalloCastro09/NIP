@@ -30,7 +30,7 @@
     <label class="perfil__label"for="nome">Telefone:</label>
     <input class="perfil__input" type="text" value="<?=$_SESSION["id_usuario"]["TELEFONE"]?>" name="telefone">
     <input type="hidden" name="usuarioId" value="<?=$_SESSION["id_usuario"]["ID"]?>">
-    <input type="submit" value="Upload"/>
+    <input class="pf" type="submit" value="Upload"/>
   </form>
 
   <?php include "../components/footer.php" ?>
