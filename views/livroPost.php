@@ -34,9 +34,9 @@
            </span>
            <?php endfor;?>
             </div>
-            <?php echo ('<span class="livroDados" data-id="'$id'"></span>');
+            <?php // echo ('<span class="livroDados" data-id="'$data["ID"]'"></span>');
 
-              echo ('<span class="average" data-average="'$calculo'"></span>');
+             // echo ('<span class="average" data-average="'$calculo'"></span>');
 
             ?>
           </div>
