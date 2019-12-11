@@ -5,20 +5,20 @@ class Estrela {
 
     public function avaliar($estrela, $livroId, $usuarioId) {
       $con = Connection::getConn();
-      $query = $con->prepare("INSERT INTO AVALIACAO (QNT_ESTRELAS, CREATED, ID_LIVRO, ID_USUARIO)
-        VALUES (:QNT_ESTRELAS, :CREATED, :USUARIO, :LIVRO)");
-      $query->bindValue(":QNT_ESTRELAS", $estrela);
+      $query = $con->prepare("INSERT INTO AVALIACAO (VOTOS, PONTOS, ID_LIVRO, ID_USUARIO)
+        VALUES (:VOTOS, :PONTOS, :USUARIO, :LIVRO)");
+      $query->bindValue(":VOTOS", $estrela);
       $query->bindValue(":LIVRO", $livroId);
-      $query->bindValue(":CREATED", NOW());
       $query->bindValue(":USUARIO", $usuarioId);
       $query->execute();
     }
 
     public function buscarAvaliacao($id) {
       $con = Connection::getConn();
-      $query = $con->prepare("SELECT QNT_ESTRELAS FROM AVALIACAO WHERE ID = :ID");
-      $query->bindValue(":ID", $id);
-      $query->execute();
-      return $query->fetch();
+      $query = $con->prepare("SELECT * FROM AVALIACAO WHERE ID = ?");
+      $query->execute(array($idLivro));
+      while($row = $query->fetchObject()){
+        $calculo = ($row->pontos == 0) ? 0 : round(($row->PONTOS/$row->VOTOS), 1);
+      }
     }
 }
