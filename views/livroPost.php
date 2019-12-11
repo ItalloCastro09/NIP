@@ -50,7 +50,7 @@
             <!--<input type="hidden" name="usuarioId" value="<?=$nome["ID"]?>">
             <input type="hidden" name="livroId" value="<?=$data["ID"]?>">-->
 
-            <input type="submit" value="Avaliar">
+            <input class="avaliar" type="submit" value="Avaliar">
 
           </div>
         </form>
