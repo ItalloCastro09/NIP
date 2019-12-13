@@ -30,7 +30,7 @@
       <label class="form__label" for="nome">Selecione uma foto</label>
       <input type="hidden" name="usuarioId" value="<?=$_SESSION["id_usuario"]["ID"]?>">
       <input name="img" size="35" type="file"/><br/>
-      <input class="fm" type="submit" value="Upload"/>
+      <input class="fm" type="submit" name="submit" value="Upload"/>
     </form>
 
 
